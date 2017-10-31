@@ -2,6 +2,27 @@
 
 Pada bab ini penulis akan menjelaskan teori yang digunakan selama pengerjaan tugas akhir.
 
+\section{Sejarah Sudoku}
+
+Sebelum sudoku modern berkembang. \textit{Puzzle latin square} terlebih dahulu berkembang yang di repretasikan oleh sebuah matriks berukuran ${n \times n}$ yang memiliki angka ${1 hingga n}$ yang harus diisi oleh pemain. untuk menyelesakain \textit{puzzle }setiap baris dan kolom pada \textit{latin square} harus memiliki nilai angka yang berbeda. \textit{Latin square} pertama kali diciptakan oleh Euler pada tahun 1783\cite{Unk1}. Pada 19 November 1892 \textit{ Le Siècle} sebuah surat kabar di perancis mempublikasikan \textit{magic square} yaitu sebuah teka-teki  yang di repretasikan oleh sebuah matriks berukuran ${9 \times 9}$ yang memiliki dua buah submatriks berukuran ${3 hingga 3}$. Tujuan dari \texit{magic square} adalah pemain mengisi baris dan kolom sehingga nilai penjumlahan setiap baris dan kolom itu sama. Sudoku modern sendiri lahir dari  Howard Garns yang dipublikasikan di \textit{Dell Magazines} pada 1979\cite{SATPy5}.	
+
+
+
+\section{Sudoku}
+
+Sudoku berasal dari kata \textit{Sūji wa dokushin ni kagiru} yang berarti angkanya harus tunggal\cite{SATPy3}. Sudoku dipopulerkan di jepang oleh \textit{Nikoli in the paper Monthly Nikolist} pada April 1984. Sudoku adalah suatu \textit{puzzle} (teka-teki) yang direpresentasikan oleh sebuah matriks (\textit{array}
+dua dimensi) berukuran ${n^2 \times n^2}$  yang dibangun dari ${n^2}$ dengan submatriks (atau blok)
+yang berukuran ${n \times n}$. Sudoku merupakan \textit{puzzle}
+yang biasanya dimainkan oleh satu orang.  Pada
+awal permainan, terdapat beberapa sel yang telah terisi yang disebut dengan pemberian
+(\textit{givens}). Untuk menyelesaikan permainan ini, seorang pemain harus mengisi setiap sel yang
+belum terisi dengan angka di antara 1 sampai
+$n^2$ sedemikan sehingga setiap baris, setiap kolom,
+dan setiap blok (submatriks berukuran $n \times n$) memuat tepat satu bilangan di antara 1 sampai $n^2$. Biasanya suatu sudoku didesain agar tepat memiliki satu kemungkinan solusi. Hal
+ini juga mengakibatkan sudoku dapat diselesaikan hanya dengan mengandalkan penalaran
+yang sederhana. Pengisian suatu sel dapat dilakukan dengan meninjau kemungkinan dari
+isi sebuah sel.
+
 \section{Metode Formal}
 
 Metode formal adalah teknik yang digunakan untuk memodelkan suatu
@@ -15,11 +36,11 @@ dikembangkan telah lengkap dan dapat dilanjutkan ke tingkat selanjutnya.
 
 \section{Pengujian Kotak Hitam}
 
-Pengujian kotak hitam adalah teknik pengujian yang tidak memerlukan pengetahuan kode dari aplikasi. Penguji biasanya melakukan pengujian kotak hitam melalui antarmuka pengguna dari aplikasi dengan diberikan \textit{test case} masukan dan menganalisa keluaran dari aplikasi.
+Pengujian kotak hitam adalah teknik pengujian yang tidak memerlukan pengetahuan kode dari aplikasi\cite{TEST1}. Penguji biasanya melakukan pengujian kotak hitam melalui antarmuka pengguna dari aplikasi dengan diberikan \textit{test case} masukan dan menganalisa keluaran dari aplikasi.
 
 \section{Logika Proposisi}
 
-Logika proposisi adalah bahasa formal untuk memodelkan situasi yang kita sehingga kita dapat memberi alasan tentang hal itu secara formal. Logika proposisi terdiri dari sebuah nilai kebenaran dari proposisinya.
+Logika proposisi adalah bahasa formal untuk memodelkan situasi yang kita sehingga kita dapat memberi alasan tentang hal itu secara formal\cite{huth2004logic}. Logika proposisi terdiri dari sebuah nilai kebenaran dari proposisinya.
 
 Operator yang digunakan pada logika proposisi adalah sebagai berikut
 
@@ -34,4 +55,19 @@ Operator yang digunakan pada logika proposisi adalah sebagai berikut
 \end{itemize}
 
 \section{\textit{Satisfiability Problem}(SAT)}
+
+Masalah SAT (SAT \textit{problem}) adalah salah satu masalah penting dalam logika komputasional\cite{huth2004logic}. Dalam pengerjaannya SAT berfokus pada membuktikan sebuah klausa \textit{satisfiable} sehingga SAT berfokus pada menemukan sebuah model yang membuat klausa tersebut \textit{satisfiable}. Jika tidak ditemukan sebuah model yang membuat klausa tersebut \textit{satisfiable} maka klausa tersebut \textit{unsatisfiable}. Masalah SAT merupakan masalah NP-complete, hingga saat ini tidak
+terdapat algoritma yang efisien untuk memecahkan masalah tersebut. 
+
+\section{\textit{Waterfall Design}}
+
+\textit{Waterfall} atau air terjun adalah model yang diperkenalkan oleh Dr.
+Winston W. Royce pada tahun 1970. Model ini menuntun pengembang untuk
+melakukan pengembangan perangkat lunak yang akan dibangun secara sistematis
+dan mempunyai keterkaitan antara prosesnya. dalam arti tahapan proses
+berikutnya tidak akan dapat di wujudkan jika tahapan sebelumnya tidak
+terselasaikan.
+
+Ada dua langkah penting yang harus ada dalam pembuatan perangkat lunak. pertama ialah analisis lalu di ikuti oleh \textit{coding}, jika di bagi akan menjadi beberapa tahap yang spesifik yaitu \textit{System
+Requirements} $\to$ \textit{Software Requirements} $\to$ \textit{Analysis} $\to$ \textit{Program Design} $\to$ \textit{Coding} $\to$ \textit{Testing} \cite{royce1987managing}. 
 
