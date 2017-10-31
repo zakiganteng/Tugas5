@@ -12,9 +12,7 @@
 \contentsline {section}{\numberline {2.1}Metode Formal}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Pengujian Kotak Hitam}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Logika Proposisi}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}SAT Solver}{5}{section.2.4}
-\contentsline {section}{\numberline {2.5}Python}{5}{section.2.5}
-\contentsline {section}{\numberline {2.6}\textit {Model Checker} NuSMV}{5}{section.2.6}
+\contentsline {section}{\numberline {2.4}\textit {Satisfiability Problem}(SAT)}{5}{section.2.4}
 \contentsline {chapter}{\numberline {III}Metodologi}{6}{chapter.3}
 \contentsline {section}{\numberline {3.1}Analisa spesifikasi dan Kebutuhan sistem}{6}{section.3.1}
 \contentsline {section}{\numberline {3.2}Translasi spesifikasi sistem}{6}{section.3.2}

@@ -15,6 +15,8 @@ dikembangkan telah lengkap dan dapat dilanjutkan ke tingkat selanjutnya.
 
 \section{Pengujian Kotak Hitam}
 
+Pengujian kotak hitam adalah teknik pengujian yang tidak memerlukan pengetahuan kode dari aplikasi. Penguji biasanya melakukan pengujian kotak hitam melalui antarmuka pengguna dari aplikasi dengan diberikan \textit{test case} masukan dan menganalisa keluaran dari aplikasi.
+
 \section{Logika Proposisi}
 
 Logika proposisi adalah bahasa formal untuk memodelkan situasi yang kita sehingga kita dapat memberi alasan tentang hal itu secara formal. Logika proposisi terdiri dari sebuah nilai kebenaran dari proposisinya.
@@ -33,39 +35,3 @@ Operator yang digunakan pada logika proposisi adalah sebagai berikut
 
 \section{\textit{Satisfiability Problem}(SAT)}
 
-\section{Python}
-
-\section{\textit{Model Checker} NuSMV}
-
-NuSMV adalah \textit{model checker} yang . . . .
-
-\begin{algorithm} [H]
-	\begin{algorithmic}[1]
-		\caption{Contoh Penulisan pada NuSMV}
-		\State \texttt{MODULE main}
-		\State \texttt{VAR}	
-		\State \texttt{$\hspace{1em}$--anggota himpunan state terdiri dari s0, s1, s2, dan s3}
-		\State \texttt{$\hspace{1em}$state : {s0,s1,s2,s3};}	
-		\State \texttt{ASSIGN}
-		\State \texttt{$\hspace{1em}$--state dimulai dari s0}
-		\State \texttt{$\hspace{1em}$init(state) := s0;}
-		\State \texttt{$\hspace{1em}$--transisi antar state}
-		\State \texttt{$\hspace{1em}$next(state) := }
-		
-		\State \texttt{$\hspace{1em}$case}
-		
-		\State \texttt{~~~~~~~~~~~~~~~state = s0 : {s1};}
-		
-		\State \texttt{~~~~~~~~~~~~~~~state = s1 : {s0,s2};}
-		
-		\State \texttt{~~~~~~~~~~~~~~~state = s2 : {s0,s3};}
-		
-		\State \texttt{~~~~~~~~~~~~~~~state = s3 : {s2};}
-		
-		\State \texttt{$\hspace{1em}$esac;}
-		
-		\State \texttt{LTLSPEC} \texttt{$\hspace{1em}$G (! (p \& q) -> F r);}	
-		
-		\State \texttt{LTLSPEC} \texttt{$\hspace{1em}$G ( (q \& r) -> F p);}
-	\end{algorithmic}
-\end{algorithm}
