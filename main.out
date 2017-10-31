@@ -8,15 +8,21 @@
 \BOOKMARK [1][-]{section.1.5}{Rencana Kegiatan}{chapter.1}% 8
 \BOOKMARK [1][-]{section.1.6}{Jadwal Kegiatan}{chapter.1}% 9
 \BOOKMARK [0][-]{chapter.2}{Kajian Pustaka}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Metode Formal}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{Pengujian Kotak Hitam}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{Logika Proposisi}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{Satisfiability Problem\(SAT\)}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{Metodologi}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Analisa spesifikasi dan Kebutuhan sistem}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Translasi spesifikasi sistem}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.3}{Pembuatan aplikasi}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.4}{Pengujian aplikasi}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.5}{Analisis sistem}{chapter.3}% 20
-\BOOKMARK [0][-]{section.3.5}{Daftar Pustaka}{}% 21
-\BOOKMARK [0][-]{chapter*.3}{Lampiran}{}% 22
+\BOOKMARK [1][-]{section.2.1}{Sejarah Sudoku}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{Sudoku}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Metode Formal}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Pengujian Kotak Hitam}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.5}{Logika Proposisi}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.6}{Satisfiability Problem\(SAT\)}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.7}{Waterfall Design}{chapter.2}% 17
+\BOOKMARK [0][-]{chapter.3}{Metodologi}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Analisa spesifikasi dan Kebutuhan sistem}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.2}{Translasi spesifikasi sistem}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{Pembuatan aplikasi}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.1}{Analysis}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.2}{Design}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.3}{Coding}{section.3.3}% 24
+\BOOKMARK [1][-]{section.3.4}{Pengujian aplikasi}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.5}{Analisis sistem}{chapter.3}% 26
+\BOOKMARK [0][-]{section.3.5}{Daftar Pustaka}{}% 27
+\BOOKMARK [0][-]{section.3.5}{Lampiran}{}% 28

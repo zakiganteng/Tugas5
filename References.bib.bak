@@ -1,156 +1,93 @@
+% This file was created with JabRef 2.10.
 % Encoding: UTF-8
 
+
 @Book{huth2004logic,
-  title     = {Logic in Computer Science: Modelling and reasoning about systems},
-  publisher = {Cambridge University Press},
-  year      = {2004},
-  author    = {Huth, Michael and Ryan, Mark},
+  Title                    = {Logic in Computer Science: Modelling and reasoning about systems},
+  Author                   = {Huth, Michael and Ryan, Mark},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2004}
 }
 
-@Article{hazzaziusing,
-  author  = {Hazzazi, Noha and Yu, Bo and Wijesekera, Duminda and Costa, Paulo},
-  title   = {Using Temporal Logic to Verify Blood Supply Chain Safety},
-  journal = {Computer Science Review},
-  year    = {2015},
+@InProceedings{Unk1,
+  Title                    = {Properties of Sudoku Puzzles},
+  Author                   = {Jones, Sian and Roach, Paul and Perkins, Stephanie},
+  Year                     = {2007},
+  Month                    = {11},
+  Pages                    = {7-11}
 }
 
-@Misc{DefinisiVaksin,
-  author       = {Bio Farma},
-  title        = {Definisi Vaksin},
-  howpublished = {http://infoimunisasi.com/vaksin/definisi-vaksin/},
-  month        = feb,
-  year         = {2012},
-  note         = {Online: accessed 19-October-2016},
+@InProceedings{KJ06,
+  Title                    = {{O}ptimized {CNF} encoding for sudoku puzzles},
+  Author                   = {Kwon, Gihwon and Jain, Himanshu},
+  Booktitle                = {Proc. 13th International Conference on Logic for Programming Artificial Intelligence and Reasoning (LPAR2006)},
+  Year                     = {2006},
+  Pages                    = {1--5}
 }
 
-@Misc{AlurDistribusi,
-  title        = {Bagaimana Vaksin Sampai Pada Konsumen},
-  howpublished = {http://www.biofarma.co.id/en/our-company/how-vaccines-reach-the-consumers/},
-  note         = {Online: accessed 19-October-2016},
+@InProceedings{LO06,
+  Title                    = {{S}udoku as a {SAT} {P}roblem.},
+  Author                   = {Lynce, In{\^e}s and Ouaknine, Jo{\"e}l},
+  Booktitle                = {ISAIM},
+  Year                     = {2006}
 }
 
-@Misc{FormalMethod,
-  title        = {Formal Method in Software Engineering Lab},
-  howpublished = {http://www.cs.ui.ac.id/id/formal-methods-in-software-engineering-lab/},
-  note         = {Accessed: 19-October-2016},
+@InProceedings{royce1987managing,
+  Title                    = {Managing the development of large software systems: concepts and techniques},
+  Author                   = {Royce, Winston W},
+  Booktitle                = {Proceedings of the 9th international conference on Software Engineering},
+  Year                     = {1987},
+  Organization             = {IEEE Computer Society Press},
+  Pages                    = {328--338}
 }
 
-@Article{rozier2011linear,
-  author    = {Rozier, Kristin Y},
-  title     = {Linear temporal logic symbolic model checking},
-  journal   = {Computer Science Review},
-  year      = {2011},
-  volume    = {5},
-  number    = {2},
-  pages     = {163--203},
-  publisher = {Elsevier},
+@Misc{SATPy1,
+  Title                    = {{U}nderstanding {SAT} by {I}mplementing a {S}imple {SAT} {S}olver in {P}ython},
+  HowPublished             = {http://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html},
+
+  Owner                    = {Arzaki},
+  Timestamp                = {2017.09.11}
 }
 
-@Misc{AlurVaksinPalsu,
-  author       = {Metro TV},
-  title        = {Alur Vaksin Palsu Sampai ke Konsumen},
-  howpublished = {http://news.metrotvnews.com/hukum/GKdXe7mK-alur-vaksin-palsu-sampai-ke-konsumen},
-  note         = {Accessed : 19-October-2016},
+@Misc{SATPy2,
+  Title                    = {{A} simple {SAT} solver implemented in {P}ython (with some non-{SAT} abilities).},
+  HowPublished             = {https://github.com/stephenroller/satsolver},
+
+  Owner                    = {Arzaki},
+  Timestamp                = {2017.09.11}
 }
 
-@InProceedings{cimatti2002nusmv,
-  author       = {Cimatti, Alessandro and Clarke, Edmund and Giunchiglia, Enrico and Giunchiglia, Fausto and Pistore, Marco and Roveri, Marco and Sebastiani, Roberto and Tacchella, Armando},
-  title        = {Nusmv 2: An opensource tool for symbolic model checking},
-  booktitle    = {International Conference on Computer Aided Verification},
-  year         = {2002},
-  pages        = {359--364},
-  organization = {Springer},
+@Misc{SATPy3,
+  Title                    = {Ed Pegg Jr.'s Math Games: Sudoku Variations},
+  HowPublished             = {http://www.mathpuzzle.com/MAA/41-Sudoku%20Variations/mathgames_09_05_05.html},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.01}
 }
 
-@Misc{VaksinPalsu,
-  author       = {BBC},
-  title        = {Vaksin palsu, apa dampaknya terhadap anak?},
-  howpublished = {http://www.bbc.com/indonesia/majalah/2016/07/160719_ trensosial_vaksinpalsu},
-  note         = {Online : accessed 19-October-2016},
+@Misc{SATPy4,
+  Title                    = {Supplément de l’article: Les ancêtres français du sudoku},
+  HowPublished             = {https://web.archive.org/web/20061210103525/http://cboyer.club.fr/multimagie/SupplAncetresSudoku.pdf},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.01}
 }
 
-@Manual{formal131209,
-  title        = {Business Process Model and Notation (BPMN)},
-  organization = {Object Managemen Group},
-  edition      = {2.0.2},
-  month        = dec,
-  year         = {2013},
+@Misc{SATPy5,
+  Title                    = {The Answer Men},
+  HowPublished             = {https://web.archive.org/web/20061210103525/http://cboyer.club.fr/multimagie/SupplAncetresSudoku.pdf},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.01}
 }
 
-@Misc{spinroot,
+@Article{TEST1,
+  Title                    = {Software Testing: Software System Evaluation.},
+
+  HowPublished             = {file:///home/zakaria/Downloads/software_testing_tutorial.pdf},
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.01}
 }
 
-@Manual{cdob,
-  title        = {Pedoman Teknis Cara Distribusi Obat yang Baik},
-  organization = {Badan Pengawas Obat dan Makanan Republik Indonesia},
-  year         = {2012},
-}
+@comment{jabref-meta: databaseType:bibtex;}
 
-@Book{levinson2003bus,
-  title  = {Bus rapid transit. Volume 2: Implementation guidelines},
-  year   = {2003},
-  author = {Levinson, Herbert S and Zimmerman, Samuel and Clinger, Jennifer and Gast, James and Rutherford, Scott and Bruhn, Eric},
-  number = {Project A-23 FY'99},
-}
-
-@Article{maoz2014operational,
-  author  = {Maoz, Shahar and Ringert, Jan Oliver and Rumpe, Bernhard},
-  title   = {An operational semantics for activity diagrams using SMV},
-  journal = {arXiv preprint arXiv:1409.2356},
-  year    = {2014},
-}
-
-@Book{booch2005unified,
-  title     = {The unified modeling language user guide},
-  publisher = {Pearson Education India},
-  year      = {2005},
-  author    = {Booch, Grady},
-}
-
-@Article{muram2014automated,
-  author  = {Muram, Faiz UL and Tran, Huy and Zdun, Uwe},
-  title   = {Automated mapping of UML activity diagrams to formal specifications for supporting containment checking},
-  journal = {arXiv preprint arXiv:1404.0852},
-  year    = {2014},
-}
-
-@TechReport{petre2001methodology,
-  author      = {Petre, Luigia and Troubitsyna, Elena and Wald{\'e}n, Marina and Bostr{\"o}m, Pontus and Engblom, Niklas and Jansson, Micaela},
-  title       = {A Methodology for integration of formal methods in a healthcare case study},
-  institution = {TUCS Technical Reports},
-  year        = {2001},
-}
-
-@InProceedings{mery2011medical,
-  author       = {M{\'e}ry, Dominique and Singh, Neeraj Kumar},
-  title        = {Medical protocol diagnosis using formal methods},
-  booktitle    = {International Symposium on Foundations of Health Informatics Engineering and Systems},
-  year         = {2011},
-  pages        = {1--20},
-  organization = {Springer},
-}
-
-@Manual{who,
-  title        = {The Vaccine Cold Chain},
-  organization = {World Health Organization},
-  year         = {2015},
-}
-
-@MastersThesis{kadamar,
-  author        = {Damar Khoirul Huda},
-  title         = {Model Formal dan Veri kasi Sistem Layanan Presensi RFID dengan Logika Temporal: Studi Kasus di Universitas Telkom, Indonesia},
-  school        = {Universitas Telkom},
-  year          = {2017},
-  type          = {Bachelor Thesis},
-  month         = aug,
-  document_type = {Bachelor's Thesis},
-}
-
-@Book{baier2008principles,
-  title     = {Principles of model checking},
-  publisher = {MIT press},
-  year      = {2008},
-  author    = {Baier, Christel and Katoen, Joost-Pieter and Larsen, Kim Guldstrand},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}

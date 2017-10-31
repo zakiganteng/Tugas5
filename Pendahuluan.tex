@@ -2,7 +2,7 @@
 
 \section{Latar Belakang}
 
-Sudoku berasal dari kata \textit{Sūji wa dokushin ni kagiru} yang berarti digitnya harus tunggal adalah suatu \textit{puzzle} (teka-teki) yang direpresentasikan oleh sebuah matriks (\textit{array}
+Sudoku berasal dari kata \textit{Sūji wa dokushin ni kagiru} yang berarti angkanya harus tunggal\cite{SATPy3} adalah suatu \textit{puzzle} (teka-teki) yang direpresentasikan oleh sebuah matriks (\textit{array}
 dua dimensi) berukuran ${n^2 \times n^2}$  yang dibangun dari ${n^2}$ dengan submatriks (atau blok)
 yang berukuran ${n \times n}$. Sudoku merupakan \textit{puzzle}
 yang biasanya dimainkan oleh satu orang.  Pada
@@ -20,12 +20,12 @@ Banyak pemain yang terjebak pada teka-teki sudoku dan tidak dapat melanjutkan pe
 Hingga saat ini, sudah banyak penelitian yang membahas penyelesaian sudoku secara
 matematis maupun komputasional. Salah satu metode yang cukup dikenal adalah penyelesaian
 sudoku dengan memanfaatkan masalah keterpenuhan formula proposisional (\textit{propositional satisfiability problem}). Dengan pendekataan ini, syarat-syarat yang
-harus dipenuhi oleh suatu sudoku dimodelkan dengan satu atau lebih formula logika proposisi.
+harus dipenuhi oleh suatu sudoku dimodelkan dengan satu atau lebih formula logika proposisi\cite{KJ06,LO06}.
 Keterpenuhan (\textit{satisfiability}) dari himpunan formula yang memodelkan syarat-syarat
 ini akan menjamin bahwa suatu sudoku memiliki suatu solusi.
 
 Pada tugas akhir ini, penulis akan membuat pemecah sudoku interaktif berbasis python. Bahasa python dipilih
-karena implementasi SAT solver dalam bahasa python masih masih sedikit dibandingkan pada bahasa C dan C++. Aplikasi akan menggunakan pengujian kotak hitam untuk menilai kualitas aplikasi.
+karena implementasi SAT solver dalam bahasa python masih masih sedikit dibandingkan pada bahasa C dan C++\cite{SATPy1}. Aplikasi akan menggunakan pengujian kotak hitam untuk menilai kualitas aplikasi\cite{TEST1}.
 
 \section{Perumusan Masalah}
 
