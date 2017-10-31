@@ -1,0 +1,71 @@
+\chapter{Kajian Pustaka}
+
+Pada bab ini penulis akan menjelaskan teori yang digunakan selama pengerjaan tugas akhir.
+
+\section{Metode Formal}
+
+Metode formal adalah teknik yang digunakan untuk memodelkan suatu
+sistem yang kompleks \cite{huth2004logic}. Metode formal dapat digunakan untuk mengembangkan
+sebuah aplikasi baik itu perangkat lunak atau perangkat keras. Pada
+masa spesifikasi, metode formal dapat digunakan untuk memberikan gambaran
+dari sistem yang akan dikembangkan sedetail yang diinginkan. Metode
+formal dapat digunakan untuk memandu kegiatan pengembangan selanjutnya
+dan dapat digunakan untuk memverifikasi bahwa pra-syarat untuk sistem yang
+dikembangkan telah lengkap dan dapat dilanjutkan ke tingkat selanjutnya.
+
+\section{Pengujian Kotak Hitam}
+
+\section{Logika Proposisi}
+
+Logika proposisi adalah bahasa formal untuk memodelkan situasi yang kita sehingga kita dapat memberi alasan tentang hal itu secara formal. Logika proposisi terdiri dari sebuah nilai kebenaran dari proposisinya.
+
+Operator yang digunakan pada logika proposisi adalah sebagai berikut
+
+\begin{itemize}
+	\item Konjungsi(dan) pada operator ini kedua proposisi yang dihubungkan harus bernilai benar agar formula bernilai \textit{true}
+	. Operator ini dilambangkan dengan $\wedge$.
+	\item Disjungsi(atau) pada operator ini salah satu proposisi yang dihubungkan harus bernilai benar agar formula bernilai \textit{true}. Operator ini dilambangkan dengan$\lor$ 
+	\item Negasi(tidak) pada operator ini suatu proposisi akan memiliki nilai sebaliknya dari sebuah proposisi. Operator ini dilambangkan dengan $\neg$
+	\item Implikasi(jika-maka) pada operator ini digunakan untuk merepresantisakan kata \textquotedblleft jika p maka q\textquotedblright sebuah formula akan bernilai \textit{false} jika nilai p benar dan nilai q salah. Operator ini dilambangkan dengan $\to$. 
+	\item Biimplikasi(jika dan hanya jika)pada operator ini suatu formula hanya akan bernilai \textit{true} jika kedua proposisinya memiliki nilai kebenaran yang sama. Operator ini dilambangkan dengan $\leftrightarrow$
+	
+\end{itemize}
+
+\section{\textit{Satisfiability Problem}(SAT)}
+
+\section{Python}
+
+\section{\textit{Model Checker} NuSMV}
+
+NuSMV adalah \textit{model checker} yang . . . .
+
+\begin{algorithm} [H]
+	\begin{algorithmic}[1]
+		\caption{Contoh Penulisan pada NuSMV}
+		\State \texttt{MODULE main}
+		\State \texttt{VAR}	
+		\State \texttt{$\hspace{1em}$--anggota himpunan state terdiri dari s0, s1, s2, dan s3}
+		\State \texttt{$\hspace{1em}$state : {s0,s1,s2,s3};}	
+		\State \texttt{ASSIGN}
+		\State \texttt{$\hspace{1em}$--state dimulai dari s0}
+		\State \texttt{$\hspace{1em}$init(state) := s0;}
+		\State \texttt{$\hspace{1em}$--transisi antar state}
+		\State \texttt{$\hspace{1em}$next(state) := }
+		
+		\State \texttt{$\hspace{1em}$case}
+		
+		\State \texttt{~~~~~~~~~~~~~~~state = s0 : {s1};}
+		
+		\State \texttt{~~~~~~~~~~~~~~~state = s1 : {s0,s2};}
+		
+		\State \texttt{~~~~~~~~~~~~~~~state = s2 : {s0,s3};}
+		
+		\State \texttt{~~~~~~~~~~~~~~~state = s3 : {s2};}
+		
+		\State \texttt{$\hspace{1em}$esac;}
+		
+		\State \texttt{LTLSPEC} \texttt{$\hspace{1em}$G (! (p \& q) -> F r);}	
+		
+		\State \texttt{LTLSPEC} \texttt{$\hspace{1em}$G ( (q \& r) -> F p);}
+	\end{algorithmic}
+\end{algorithm}

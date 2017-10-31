@@ -1,0 +1,156 @@
+% Encoding: UTF-8
+
+@Book{huth2004logic,
+  title     = {Logic in Computer Science: Modelling and reasoning about systems},
+  publisher = {Cambridge University Press},
+  year      = {2004},
+  author    = {Huth, Michael and Ryan, Mark},
+}
+
+@Article{hazzaziusing,
+  author  = {Hazzazi, Noha and Yu, Bo and Wijesekera, Duminda and Costa, Paulo},
+  title   = {Using Temporal Logic to Verify Blood Supply Chain Safety},
+  journal = {Computer Science Review},
+  year    = {2015},
+}
+
+@Misc{DefinisiVaksin,
+  author       = {Bio Farma},
+  title        = {Definisi Vaksin},
+  howpublished = {http://infoimunisasi.com/vaksin/definisi-vaksin/},
+  month        = feb,
+  year         = {2012},
+  note         = {Online: accessed 19-October-2016},
+}
+
+@Misc{AlurDistribusi,
+  title        = {Bagaimana Vaksin Sampai Pada Konsumen},
+  howpublished = {http://www.biofarma.co.id/en/our-company/how-vaccines-reach-the-consumers/},
+  note         = {Online: accessed 19-October-2016},
+}
+
+@Misc{FormalMethod,
+  title        = {Formal Method in Software Engineering Lab},
+  howpublished = {http://www.cs.ui.ac.id/id/formal-methods-in-software-engineering-lab/},
+  note         = {Accessed: 19-October-2016},
+}
+
+@Article{rozier2011linear,
+  author    = {Rozier, Kristin Y},
+  title     = {Linear temporal logic symbolic model checking},
+  journal   = {Computer Science Review},
+  year      = {2011},
+  volume    = {5},
+  number    = {2},
+  pages     = {163--203},
+  publisher = {Elsevier},
+}
+
+@Misc{AlurVaksinPalsu,
+  author       = {Metro TV},
+  title        = {Alur Vaksin Palsu Sampai ke Konsumen},
+  howpublished = {http://news.metrotvnews.com/hukum/GKdXe7mK-alur-vaksin-palsu-sampai-ke-konsumen},
+  note         = {Accessed : 19-October-2016},
+}
+
+@InProceedings{cimatti2002nusmv,
+  author       = {Cimatti, Alessandro and Clarke, Edmund and Giunchiglia, Enrico and Giunchiglia, Fausto and Pistore, Marco and Roveri, Marco and Sebastiani, Roberto and Tacchella, Armando},
+  title        = {Nusmv 2: An opensource tool for symbolic model checking},
+  booktitle    = {International Conference on Computer Aided Verification},
+  year         = {2002},
+  pages        = {359--364},
+  organization = {Springer},
+}
+
+@Misc{VaksinPalsu,
+  author       = {BBC},
+  title        = {Vaksin palsu, apa dampaknya terhadap anak?},
+  howpublished = {http://www.bbc.com/indonesia/majalah/2016/07/160719_ trensosial_vaksinpalsu},
+  note         = {Online : accessed 19-October-2016},
+}
+
+@Manual{formal131209,
+  title        = {Business Process Model and Notation (BPMN)},
+  organization = {Object Managemen Group},
+  edition      = {2.0.2},
+  month        = dec,
+  year         = {2013},
+}
+
+@Misc{spinroot,
+}
+
+@Manual{cdob,
+  title        = {Pedoman Teknis Cara Distribusi Obat yang Baik},
+  organization = {Badan Pengawas Obat dan Makanan Republik Indonesia},
+  year         = {2012},
+}
+
+@Book{levinson2003bus,
+  title  = {Bus rapid transit. Volume 2: Implementation guidelines},
+  year   = {2003},
+  author = {Levinson, Herbert S and Zimmerman, Samuel and Clinger, Jennifer and Gast, James and Rutherford, Scott and Bruhn, Eric},
+  number = {Project A-23 FY'99},
+}
+
+@Article{maoz2014operational,
+  author  = {Maoz, Shahar and Ringert, Jan Oliver and Rumpe, Bernhard},
+  title   = {An operational semantics for activity diagrams using SMV},
+  journal = {arXiv preprint arXiv:1409.2356},
+  year    = {2014},
+}
+
+@Book{booch2005unified,
+  title     = {The unified modeling language user guide},
+  publisher = {Pearson Education India},
+  year      = {2005},
+  author    = {Booch, Grady},
+}
+
+@Article{muram2014automated,
+  author  = {Muram, Faiz UL and Tran, Huy and Zdun, Uwe},
+  title   = {Automated mapping of UML activity diagrams to formal specifications for supporting containment checking},
+  journal = {arXiv preprint arXiv:1404.0852},
+  year    = {2014},
+}
+
+@TechReport{petre2001methodology,
+  author      = {Petre, Luigia and Troubitsyna, Elena and Wald{\'e}n, Marina and Bostr{\"o}m, Pontus and Engblom, Niklas and Jansson, Micaela},
+  title       = {A Methodology for integration of formal methods in a healthcare case study},
+  institution = {TUCS Technical Reports},
+  year        = {2001},
+}
+
+@InProceedings{mery2011medical,
+  author       = {M{\'e}ry, Dominique and Singh, Neeraj Kumar},
+  title        = {Medical protocol diagnosis using formal methods},
+  booktitle    = {International Symposium on Foundations of Health Informatics Engineering and Systems},
+  year         = {2011},
+  pages        = {1--20},
+  organization = {Springer},
+}
+
+@Manual{who,
+  title        = {The Vaccine Cold Chain},
+  organization = {World Health Organization},
+  year         = {2015},
+}
+
+@MastersThesis{kadamar,
+  author        = {Damar Khoirul Huda},
+  title         = {Model Formal dan Veri kasi Sistem Layanan Presensi RFID dengan Logika Temporal: Studi Kasus di Universitas Telkom, Indonesia},
+  school        = {Universitas Telkom},
+  year          = {2017},
+  type          = {Bachelor Thesis},
+  month         = aug,
+  document_type = {Bachelor's Thesis},
+}
+
+@Book{baier2008principles,
+  title     = {Principles of model checking},
+  publisher = {MIT press},
+  year      = {2008},
+  author    = {Baier, Christel and Katoen, Joost-Pieter and Larsen, Kim Guldstrand},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

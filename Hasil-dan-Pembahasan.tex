@@ -1,0 +1,178 @@
+\chapter{Verifikasi Formal dan Analisisnya}
+
+Pada bab ini dijelaskan tentang proses verifikasi formal diagram aktivitas
+alur distribusi vaksin menggunakan model checker NuSMV.
+
+\section{Langkah-Langkah Verifikasi Menggunakan NuSMV}
+
+Pada subbab ini, penulis akan menjelaskan cara verifikasi dengan model
+checker NuSMV dengan model formal dan spesifikasi yang telah dibuat
+pada Bab 3. Berikut langkah verifikasi:
+\begin{enumerate}
+	\item Buat skrip baru dengan ekstensi .smv menggunakan text editor. Skrip
+	tersebut berisi model formal yang telah ditranslasi ke NuSMV pada
+	Subbab 3.3.
+	\item Tambahkan spesifikasi LTL yang telah dibuat pada Subbab 3.4 dengan
+	menyesuaikan aturan pada Bab 2 agar spesifikasi dapat diperiksa
+	pada NuSMV.
+	\item Simpan skrip ke direktori \texttt{C:/Program Files/NuSMV/<version>/bin}.
+	\item Jalankan program Command Prompt. Ubah direktori ke tempat penyimpanan
+	skrip yang sudah dibuat.
+	\item Masukkan perintah \texttt{NuSMV.exe <namaskrip>.smv} kemudian tekan \textit{enter}.
+	\item Hasil verifikasi akan terlihat ketika file NuSMV sudah selesai diproses.
+	Jika spesifikasi benar maka NuSMV akan menampilkan spesifikasi is \textit{true}.
+	Jika spesifikasi salah maka NuSMV akan menampilkan \textit{counter-example}
+	dari spesifikasi tersebut.
+\end{enumerate}
+
+\section{Verifikasi Alur Distribusi Vaksin}
+
+Pada Subbab ini akan dijelaskan hasil verifikasi yang dilakukan pada
+model formal yang telah dibuat dan analisi dari hasil tersebut.
+
+\subsection{Verifikasi untuk Alur Penerimaan Vaksin}
+
+Berdasarkan spesifikasi yang telah dijelaskan pada Subbab 3.4, didapatkan
+hasil verifikasi seperti berikut.
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/PenerimaanVaksin\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur penerimaan vaksin.}
+\end{figure}
+
+Pada Gambar 4.1 terlihat semua spesifikasi bernilai true. Hal itu
+menunjukkan bahwa model formal telah memenuhi spesifikasi yang diberikan.
+
+\subsection{Verifikasi untuk Alur Pemeriksaan Vaksin}
+
+Berdasarkan spesifikasi yang telah dijelaskan pada Subbab 3.4, didapatkan
+hasil verifikasi seperti berikut:
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/PemeriksaanVaksin\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur pemeriksaan vaksin.}
+	
+\end{figure}
+
+Pada Gambar 4.2 terlihat semua spesifikasi bernilai true. Hal itu
+menunjukkan bahwa model formal telah memenuhi spesifikasi yang diberikan.
+
+\subsection{Verifikasi untuk Alur Cek Prioritas Pengiriman}
+
+Berdasarkan spesifikasi yang telah dijelaskan pada Subbab 3.4, didapatkan
+hasil verifikasi seperti berikut:
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/CekPrioritasPengiriman\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur cek prioritas pengiriman.}
+\end{figure}
+
+Pada Gambar 4.3 terlihat semua spesifikasi bernilai true. Hal itu
+menunjukkan bahwa model formal telah memenuhi spesifikasi yang diberikan.
+
+\subsection{Verifikasi untuk Alur Penyimpanan di PT. Bio Farma}
+
+Berdasarkan spesifikasi yang telah dijelaskan pada Subbab 3.4, didapatkan
+hasil verifikasi seperti berikut:
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/BioFarma-01\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur penyimpanan di PT. Bio Farma.}
+	
+\end{figure}
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/BioFarma-02\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur penyimpanan di PT. Bio Farma.}
+	
+\end{figure}
+
+Pada Gambar 4.4 dan 4.5 terdapat spesifikasi yang bernilai false yaitu
+\texttt{F(ac = hubungi$\_$supervisor) xor F(ac = pengiriman$\_$vaksin)}. Hal itu
+menunjukkan bahwa petugas vaksin tidak akan menghubungi supervisor atau
+vaksin tidak akan dikirim ke pos selanjutnya. Berdasarkan counterexample
+yang diberikan oleh NuSMV, pada model formal terdapat proses yang
+terus-menerus terjadi. Proses tersebut terjadi ketika \texttt{pemeriksaan\_vaksin} dan \texttt{cek\_jadwal\_ pengiriman} terus-menerus dilakukan. Data yang
+didapat dari BPOM dan WHO tidak ada informasi yang menjelaskan berapa
+lama waktu vaksin disimpan di ruang penyimpanan.
+
+\subsection{Verifikasi untuk Alur Penyimpanan di Dinas Kesehatan}
+
+Berdasarkan spesifikasi yang telah dijelaskan pada Subbab 3.4, didapatkan
+hasil verifikasi seperti berikut.
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/DinKes-01\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur penyimpanan di Dinas Kesehatan.}
+	
+\end{figure}
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/DinKes-02\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur penyimpanan di Dinas Kesehatan.}
+	
+\end{figure}
+
+Pada Gambar 4.6 dan 4.6 terdapat spesifikasi yang bernilai false yaitu \texttt{F(ac = hubungi$\_$supervisor) xor F(ac = pengirimanan$\_$vaksin)}. Hal itu menunjukkan bahwa petugas vaksin tidak akan menghubungi superviosr atau vaksin tidak akan dikirim ke pos selanjutnya. Berdasarkan \textit{counterexample} yang diberikan oleh NuSMV, pada model formal terdapat proses yang terus-menerus terjadi. Proses tersebut terjadi ketika \texttt{pemeriksaan\_vaksin} dan \texttt{cek\_jadwal\_ pengiriman} terus-menerus dilakukan. Data yang didapat dari BPOM dan WHO tidak ada informasi yang menjelaskan berapa lama waktu vaksin disimpan di ruang penyimpanan.
+
+\subsection{Verifikasi untuk Alur Penyimpanan di Puskesmas}
+
+Berdasarkan spesifikasi yang telah dijelaskan pada Subbab 3.4, didapatkan
+hasil verifikasi seperti berikut.
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/Puskesmas-01\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur penyimpanan di Puskesmas.}
+	
+\end{figure}
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.5]{\string"C:/Users/fikri/Google Drive/Tugas_Akhir/assets/verifikasi_nusmv/Puskesmas-02\string"}
+		\par
+	\end{centering}
+	
+	\caption{Hasil verifikasi untuk alur penyimpanan di Puskesmas.}
+	
+\end{figure}
+
+Pada Gambar 4.8 dan 4.9 terdapat spesifikasi yang bernilai false yaitu
+\texttt{F(ac = hubungi$\_$supervisor) xor F(ac = imunisasi)}. Hal itu
+menunjukkan bahwa petugas vaksin tidak akan menghubungi supervisor atau
+vaksin tidak akan dikirim ke pos selanjutnya. Berdasarkan counterexample
+yang diberikan oleh NuSMV, pada model formal terdapat proses yang
+terus-menerus terjadi. Proses tersebut terjadi ketika \texttt{pemeriksaan\_vaksin} dan \texttt{cek\_jadwal\_imunisasi} terus-menerus dilakukan. Data yang
+didapat dari BPOM dan WHO tidak ada informasi yang menjelaskan berapa
+lama waktu vaksin disimpan di ruang penyimpanan.
