@@ -26,4 +26,4 @@
 \contentsline {section}{\numberline {3.4}Pengujian aplikasi}{8}{section.3.4}
 \contentsline {section}{\numberline {3.5}Analisis sistem}{8}{section.3.5}
 \contentsline {chapter}{Daftar Pustaka}{9}{section.3.5}
-\contentsline {chapter}{Lampiran}{9}{section.3.5}
+\contentsline {chapter}{Lampiran}{10}{chapter*.3}
