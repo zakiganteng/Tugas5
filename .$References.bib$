@@ -114,5 +114,10 @@
   Timestamp                = {2017.11.01}
 }
 
+@InProceedings{,
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.08}
+}
+
 @comment{jabref-meta: databaseType:bibtex;}
 
