@@ -4,7 +4,7 @@ Pada bab ini penulis akan menjelaskan teori yang digunakan selama pengerjaan tug
 
 \section{PISA}
 
-\textit{Programme for International Student Assessment} adalah sebuah program yang dilakukan tiga tahun sekali oleh \textit{The Organization for Economic Co-operation and Development}(OECD) dengan tujuan untuk membuat data yang dapat dibandingkan yang akan memungkinkan negara-negara memperbaiki kebijakan dan hasil pendidikan mereka. Siswa yang dijadikan \textit{sample} pada PISA berumur 15 tahun, hal ini dilakukan karena mereka berada pada akhir pendidikan wajib. Hal yang diujikan dalam PISA berupa matematika, sains, dan membaca.
+\textit{Programme for International Student Assessment} adalah sebuah program yang dilakukan tiga tahun sekali oleh \textit{The Organization for Economic Co-operation and Development}(OECD) dengan tujuan untuk membuat data yang dapat dibandingkan yang akan memungkinkan negara-negara memperbaiki kebijakan dan hasil pendidikan mereka \cite{Pisa1}. Siswa yang dijadikan \textit{sample} pada PISA berumur 15 tahun, hal ini dilakukan karena mereka berada pada akhir pendidikan wajib. Hal yang diujikan dalam PISA berupa matematika, sains, dan membaca.
 
 \section{Sudoku}
 
@@ -23,7 +23,17 @@ isi sebuah sel.
 
 \subsection{Sejarah Sudoku}
 
-Sebelum sudoku modern berkembang. \textit{Puzzle latin square} terlebih dahulu berkembang yang di repretasikan oleh sebuah matriks berukuran ${n \times n}$ yang memiliki angka ${1 hingga n}$ yang harus diisi oleh pemain. untuk menyelesakain \textit{puzzle }setiap baris dan kolom pada \textit{latin square} harus memiliki nilai angka yang berbeda. \textit{Latin square} pertama kali diciptakan oleh Euler pada tahun 1783 \cite{Unk1}. Pada 19 November 1892 \textit{ Le Siècle} sebuah surat kabar di perancis mempublikasikan \textit{magic square} yaitu sebuah teka-teki  yang di repretasikan oleh sebuah matriks berukuran ${9 \times 9}$ yang memiliki dua buah submatriks berukuran ${3 \times 3}$. Tujuan dari \textit{magic square} adalah pemain mengisi baris dan kolom sehingga nilai penjumlahan setiap baris dan kolom itu sama. Sudoku modern sendiri lahir dari  Howard Garns yang dipublikasikan di \textit{Dell Magazines} pada 1979 \cite{SATPy5}.	
+Sebelum sudoku modern berkembang. \textit{Puzzle latin square} terlebih dahulu berkembang yang di repretasikan oleh sebuah matriks berukuran ${n \times n}$ yang memiliki angka ${1 hingga n}$ yang harus diisi oleh pemain. untuk menyelesakain \textit{puzzle }setiap baris dan kolom pada \textit{latin square} harus memiliki nilai angka yang berbeda. \textit{Latin square} pertama kali diciptakan oleh Euler pada tahun 1783 \cite{Unk1}. Pada 19 November 1892 \textit{ Le Siècle} sebuah surat kabar di perancis mempublikasikan \textit{magic square} yaitu sebuah teka-teki  yang di repretasikan oleh sebuah matriks berukuran ${9 \times 9}$ yang memiliki dua buah submatriks berukuran ${3 \times 3}$. Tujuan dari \textit{magic square} adalah pemain mengisi baris dan kolom sehingga nilai penjumlahan setiap baris dan kolom itu sama. 
+
+\begin{figure}[H]
+	\begin{centering}
+		\includegraphics[scale=0.7]{gambar/magicSquare}
+		
+		\caption{Benduk \textit{magic square}. (gambar diambil dari \cite{SATPy4})}
+	\end{centering}
+\end{figure}
+
+Sudoku modern sendiri lahir dari  Howard Garns yang dipublikasikan di \textit{Dell Magazines} pada 1979 \cite{SATPy5}.	
 
 \subsection{Penyelesaian Sudoku}
 
@@ -31,25 +41,25 @@ Dalam menyelesaikan sudoku terdapat banyak cara. Namun salah satu cara yang pali
 
 \subsubsection{Memeriksa Baris, Kolom, dan Blok}
 
-Pada sudoku dengan ukuran $9 \times 9$Untuk menyelesaikan sudoku pemain tidak boleh menaruh angka yang sama di baris, kolom, atau blok ${3 \times 3}$.
+Pada sudoku dengan ukuran $9 \times 9$ Untuk menyelesaikan sudoku pemain tidak boleh menaruh angka yang sama di baris, kolom, atau blok ${3 \times 3}$.
 
 \begin{figure}[H]
 	\begin{centering}
 		\includegraphics[scale=0.7]{gambar/solve1}
 		
-		\caption{7 tidak mungkin pada kotak tersebut. (gambar diambil dari)}
+		\caption{7 tidak mungkin pada sel tersebut. (gambar diambil dari \cite{Sud12})}
 	\end{centering}
 \end{figure}
 
 \subsubsection{Menemukan \textit{Define}}
 
-\textit{Define} adalah angka yang pasti ada pada kotak itu. \textit{Define} dipengaruhi oleh \textit{given} suatu sudoku. Untuk mempermudah menemukan \textit{define} pemain memulai mencarinya dari angka 1 lalu menarik sebuah garis dari setiap \textit{given} bernilai 1. Ketika hanya ada satu kotak tersisa pada sebuah blok maka kotak itu memiliki \textit{Define} angka 1. 
+\textit{Define} adalah angka yang pasti ada pada sel itu. \textit{Define} dipengaruhi oleh \textit{given} suatu sudoku. Untuk mempermudah menemukan \textit{define} pemain memulai mencarinya dari angka 1 lalu menarik sebuah garis dari setiap \textit{given} bernilai 1. Ketika hanya ada satu sel tersisa pada sebuah blok maka sel itu memiliki \textit{Define} angka 1. 
 
 \begin{figure}[H]
 	\begin{centering}
 		\includegraphics[scale=0.7]{gambar/solve2}
 		
-		\caption{Menemukan \textit{define}. (gambar diambil dari)}
+		\caption{Menemukan \textit{define}. (gambar diambil dari \cite{Sud12})}
 	\end{centering}
 \end{figure}
 
@@ -59,7 +69,7 @@ Ulangi proses yang sama hingga angka 9.
 	\begin{centering}
 		\includegraphics[scale=0.7]{gambar/solve3}
 		
-		\caption{Semua \textit{define} ditemukan. (gambar diambil dari)}
+		\caption{Semua \textit{define} ditemukan. (gambar diambil dari \cite{Sud12})}
 	\end{centering}
 \end{figure}
 
@@ -67,7 +77,7 @@ Ulangi proses yang sama hingga angka 9.
 
 \subsubsection{\textit{Backtrack} Ketika Mengalami Kemacetan}
 
-Ketika pemain mengalami kemacetan dalam mengerjakan sudoko. Hal ini terjadi karena pemain salah  memasukkan angka pada kotak diluar \textit{define}. Salah satu caranya adalah dengan memberi catatan untuk setiap blok dengan angka yang mungkin berada  pada kotak tersebut.
+Ketika pemain mengalami kemacetan dalam mengerjakan sudoko. Hal ini terjadi karena pemain salah  memasukkan angka pada sel diluar \textit{define}. Salah satu caranya adalah dengan memberi catatan untuk setiap blok dengan angka yang mungkin berada  pada sel tersebut.
 
 
 
@@ -75,7 +85,7 @@ Ketika pemain mengalami kemacetan dalam mengerjakan sudoko. Hal ini terjadi kare
 	\begin{centering}
 		\includegraphics[scale=0.7]{gambar/solve4}
 		
-		\caption{Catatan yang berisi setiap kemungkinan angka. (gambar diambil dari)}
+		\caption{Catatan yang berisi setiap kemungkinan angka. (gambar diambil dari \cite{Sud12})}
 		\end{centering}
 		\end{figure}
 		
@@ -118,17 +128,39 @@ Masalah SAT (SAT \textit{problem}) adalah salah satu masalah penting dalam logik
 terdapat algoritma yang efisien untuk memecahkan masalah tersebut. 
 
 \subsection{Penyelesaian Sudoku Dengan SAT}
-Sudoku memiliki beberapa aturan yaitu :
+Sudoku memiliki beberapa aturan contohnya untuk sudoku berukuran  $9 \times 9$ yaitu :
 
 \begin{enumerate}
-	\item Setiap baris memuat semua bilangan pada 1 hingga $n^2$.
-	\item Setiap kolom memuat semua bilangan pada 1 hingga $n^2$.
-	\item Setiap submatriks atau blok $n \times n$
-	 memuat semua bilangan pada 1 hingga $n^2$.
-	\item Setiap sel memuat tepat satu bilangan pada 1 hingga $n^2$.
+	\item Setiap baris memuat bilangan antara 1 hingga 9.
+	\item Setiap kolom memuat bilangan antara 1 hingga 9.
+	\item Setiap submatriks atau blok $3 \times 3$
+	 memuat bilangan antara 1 hingga 9.
+	\item Setiap sel memuat tepat satu bilangan antara 1 hingga 9.
 \end{enumerate}
 
-Dari aturan-aturan tersebut akan diubah menjadi ditranslasikan menjadi bentuk CNF lalu digunakan pada SAT \textit{solver}.
+Dari aturan-aturan tersebut akan ditranslasikan menjadi bentuk CNF lalu digunakan pada SAT \textit{solver}. Dengan aturan yang telah ditranslasikan dalam CNF sebagai berikut:
+
+\begin{enumerate}
+	\item Setiap baris memuat bilangan antara 1 
+	hingga 9 : 
+	
+	\includegraphics[scale=1]{gambar/rule1}
+	
+	\item Setiap kolom memuat bilangan antara 1 hingga 9 : 
+	
+	\includegraphics[scale=1]{gambar/rule2}
+	
+	\item Setiap submatriks atau blok $3 \times 3$
+	memuat bilangan antara 1 hingga 9 : 
+	
+	\includegraphics[scale=1]{gambar/rule3}
+	
+	\item Setiap sel memuat tepat satu bilangan antara 1 hingga 9 : 
+	
+	\includegraphics[scale=1]{gambar/rule4}
+	
+\end{enumerate}
+
 
 \section{\textit{Waterfall Design}}
 

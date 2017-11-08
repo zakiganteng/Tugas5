@@ -1,0 +1,115 @@
+% Encoding: UTF-8
+
+
+@Book{TEST1,
+  Title                    = {Black-box testing: techniques for functional testing of software and systems},
+  Author                   = {Beizer, Boris},
+  Publisher                = {John Wiley \& Sons, Inc.},
+  Year                     = {1995}
+}
+
+@Book{huth2004logic,
+  Title                    = {Logic in Computer Science: Modelling and reasoning about systems},
+  Author                   = {Huth, Michael and Ryan, Mark},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2004}
+}
+
+@InProceedings{Unk1,
+  Title                    = {Properties of Sudoku Puzzles},
+  Author                   = {Jones, Sian and Roach, Paul and Perkins, Stephanie},
+  Booktitle                = {Proceedings of the 9th international conference on Software Engineering},
+  Year                     = {2007},
+  Month                    = {11},
+  Organization             = {IEEE Computer Society Press},
+  Pages                    = {7-11}
+}
+
+@InProceedings{KJ06,
+  Title                    = {{O}ptimized {CNF} encoding for sudoku puzzles},
+  Author                   = {Kwon, Gihwon and Jain, Himanshu},
+  Booktitle                = {Proc. 13th International Conference on Logic for Programming Artificial Intelligence and Reasoning (LPAR2006)},
+  Year                     = {2006},
+  Pages                    = {1--5}
+}
+
+@InProceedings{LO06,
+  Title                    = {{S}udoku as a {SAT} {P}roblem.},
+  Author                   = {Lynce, In{\^e}s and Ouaknine, Jo{\"e}l},
+  Booktitle                = {ISAIM},
+  Year                     = {2006}
+}
+
+@InProceedings{royce1987managing,
+  Title                    = {Managing the development of large software systems: concepts and techniques},
+  Author                   = {Royce, Winston W},
+  Booktitle                = {Proceedings of the 9th international conference on Software Engineering},
+  Year                     = {1987},
+  Organization             = {IEEE Computer Society Press},
+  Pages                    = {328--338}
+}
+
+@Misc{Sud12,
+  title        = {Cara Memecahkan Teka teki Sudoku},
+  howpublished = {https://id.wikihow.com/Memecahkan-Teka-teki-Sudoku},
+  owner        = {zakaria},
+  timestamp    = {2017.11.07},
+}
+
+@Misc{Pisa1,
+  Title                    = {Pisa 2015 Result},
+  HowPublished             = {http://www.keepeek.com/Digital-Asset-Management/oecd/education/pisa-2015-results-volume-i_9789264266490-en} # .WEbNSmQrJjQ # {page1},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.07}
+}
+
+@Misc{Pisa2,
+  Title                    = {The latest ranking of top countries in math, reading, and science is out},
+  HowPublished             = {http://www.businessinsider.sg/pisa-worldwide-ranking-of-math-science-reading-skills-2016-12/?r=US\&IR=T},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.07}
+}
+
+@Misc{SATPy1,
+  Title                    = {{U}nderstanding {SAT} by {I}mplementing a {S}imple {SAT} {S}olver in {P}ython},
+  HowPublished             = {http://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html},
+
+  Owner                    = {Arzaki},
+  Timestamp                = {2017.09.11}
+}
+
+@Misc{SATPy2,
+  Title                    = {{A} simple {SAT} solver implemented in {P}ython (with some non-{SAT} abilities).},
+  HowPublished             = {https://github.com/stephenroller/satsolver},
+
+  Owner                    = {Arzaki},
+  Timestamp                = {2017.09.11}
+}
+
+@Misc{SATPy3,
+  Title                    = {Ed Pegg Jr.'s Math Games: Sudoku Variations},
+  HowPublished             = {http://www.mathpuzzle.com/MAA/41-Sudoku%20Variations/mathgames_09_05_05.html},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.01}
+}
+
+@Misc{SATPy4,
+  Title                    = {Supplément de l’article: Les ancêtres français du sudoku},
+  HowPublished             = {https://web.archive.org/web/20061210103525/http://cboyer.club.fr/multimagie/SupplAncetresSudoku.pdf},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.01}
+}
+
+@Misc{SATPy5,
+  Title                    = {The Answer Men},
+  HowPublished             = {http://content.time.com/time/magazine/article/0,9171,2137423,00.html},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.01}
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

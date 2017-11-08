@@ -19,16 +19,17 @@
 \BOOKMARK [1][-]{section.2.4}{Pengujian Kotak Hitam}{chapter.2}% 19
 \BOOKMARK [1][-]{section.2.5}{Logika Proposisi}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.6}{Satisfiability Problem\(SAT\)}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.7}{Waterfall Design}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Metodologi}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Analisa spesifikasi dan Kebutuhan sistem}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.2}{Translasi spesifikasi sistem}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.3}{Pembuatan aplikasi}{chapter.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.1}{Spesifikasi Aplikasi}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.2}{Analysis}{section.3.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.3}{Design}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.4}{Coding}{section.3.3}% 30
-\BOOKMARK [1][-]{section.3.4}{Pengujian aplikasi}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.5}{Analisis sistem}{chapter.3}% 32
-\BOOKMARK [0][-]{section.3.5}{Daftar Pustaka}{}% 33
-\BOOKMARK [0][-]{section.3.5}{Lampiran}{}% 34
+\BOOKMARK [2][-]{subsection.2.6.1}{Penyelesaian Sudoku Dengan SAT}{section.2.6}% 22
+\BOOKMARK [1][-]{section.2.7}{Waterfall Design}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Metodologi}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Analisa spesifikasi dan Kebutuhan sistem}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{Translasi spesifikasi sistem}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{Pembuatan aplikasi}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.1}{Spesifikasi Aplikasi}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.2}{Analysis}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.3}{Design}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.4}{Coding}{section.3.3}% 31
+\BOOKMARK [1][-]{section.3.4}{Pengujian aplikasi}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.5}{Analisis sistem}{chapter.3}% 33
+\BOOKMARK [0][-]{section.3.5}{Daftar Pustaka}{}% 34
+\BOOKMARK [0][-]{chapter*.3}{Lampiran}{}% 35
