@@ -51,14 +51,6 @@
 }
 
 @Misc{Pisa1,
-  Title                    = {Cara Memecahkan Teka teki Sudoku},
-  HowPublished             = {https://id.wikihow.com/Memecahkan-Teka-teki-Sudoku},
-
-  Owner                    = {zakaria},
-  Timestamp                = {2017.11.07}
-}
-
-@Misc{Pisa1,
   Title                    = {Pisa 2015 Result},
   HowPublished             = {http://www.keepeek.com/Digital-Asset-Management/oecd/education/pisa-2015-results-volume-i_9789264266490-en} # .WEbNSmQrJjQ # {page1},
 

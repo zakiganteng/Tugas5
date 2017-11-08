@@ -9,21 +9,27 @@
 \contentsline {section}{\numberline {1.5}Rencana Kegiatan}{2}{section.1.5}
 \contentsline {section}{\numberline {1.6}Jadwal Kegiatan}{3}{section.1.6}
 \contentsline {chapter}{\numberline {II}Kajian Pustaka}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Sejarah Sudoku}{4}{section.2.1}
+\contentsline {section}{\numberline {2.1}PISA}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Sudoku}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Metode Formal}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Pengujian Kotak Hitam}{5}{section.2.4}
-\contentsline {section}{\numberline {2.5}Logika Proposisi}{5}{section.2.5}
-\contentsline {section}{\numberline {2.6}\textit {Satisfiability Problem}(SAT)}{6}{section.2.6}
-\contentsline {section}{\numberline {2.7}\textit {Waterfall Design}}{6}{section.2.7}
-\contentsline {chapter}{\numberline {III}Metodologi}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Analisa spesifikasi dan Kebutuhan sistem}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Translasi spesifikasi sistem}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Pembuatan aplikasi}{8}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}\textit {Analysis}}{8}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}\textit {Design}}{8}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}\textit {Coding}}{8}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Pengujian aplikasi}{8}{section.3.4}
-\contentsline {section}{\numberline {3.5}Analisis sistem}{8}{section.3.5}
-\contentsline {chapter}{Daftar Pustaka}{9}{section.3.5}
-\contentsline {chapter}{Lampiran}{10}{chapter*.3}
+\contentsline {subsection}{\numberline {2.2.1}Sejarah Sudoku}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Penyelesaian Sudoku}{5}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Memeriksa Baris, Kolom, dan Blok}{5}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Menemukan \textit {Define}}{6}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}\textit {Backtrack} Ketika Mengalami Kemacetan}{7}{subsubsection.2.2.2.3}
+\contentsline {section}{\numberline {2.3}Metode Formal}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}Pengujian Kotak Hitam}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}Logika Proposisi}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}\textit {Satisfiability Problem}(SAT)}{9}{section.2.6}
+\contentsline {section}{\numberline {2.7}\textit {Waterfall Design}}{9}{section.2.7}
+\contentsline {chapter}{\numberline {III}Metodologi}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}Analisa spesifikasi dan Kebutuhan sistem}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Translasi spesifikasi sistem}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Pembuatan aplikasi}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Spesifikasi Aplikasi}{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}\textit {Analysis}}{11}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}\textit {Design}}{11}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}\textit {Coding}}{11}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Pengujian aplikasi}{11}{section.3.4}
+\contentsline {section}{\numberline {3.5}Analisis sistem}{11}{section.3.5}
+\contentsline {chapter}{Daftar Pustaka}{12}{section.3.5}
+\contentsline {chapter}{Lampiran}{12}{section.3.5}

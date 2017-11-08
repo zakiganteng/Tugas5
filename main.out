@@ -8,21 +8,27 @@
 \BOOKMARK [1][-]{section.1.5}{Rencana Kegiatan}{chapter.1}% 8
 \BOOKMARK [1][-]{section.1.6}{Jadwal Kegiatan}{chapter.1}% 9
 \BOOKMARK [0][-]{chapter.2}{Kajian Pustaka}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Sejarah Sudoku}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.1}{PISA}{chapter.2}% 11
 \BOOKMARK [1][-]{section.2.2}{Sudoku}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{Metode Formal}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{Pengujian Kotak Hitam}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.5}{Logika Proposisi}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.6}{Satisfiability Problem\(SAT\)}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.7}{Waterfall Design}{chapter.2}% 17
-\BOOKMARK [0][-]{chapter.3}{Metodologi}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Analisa spesifikasi dan Kebutuhan sistem}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Translasi spesifikasi sistem}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.3}{Pembuatan aplikasi}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.1}{Analysis}{section.3.3}% 22
-\BOOKMARK [2][-]{subsection.3.3.2}{Design}{section.3.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.3}{Coding}{section.3.3}% 24
-\BOOKMARK [1][-]{section.3.4}{Pengujian aplikasi}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.5}{Analisis sistem}{chapter.3}% 26
-\BOOKMARK [0][-]{section.3.5}{Daftar Pustaka}{}% 27
-\BOOKMARK [0][-]{chapter*.3}{Lampiran}{}% 28
+\BOOKMARK [2][-]{subsection.2.2.1}{Sejarah Sudoku}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{Penyelesaian Sudoku}{section.2.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.2.1}{Memeriksa Baris, Kolom, dan Blok}{subsection.2.2.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.2.2}{Menemukan Define}{subsection.2.2.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.2.3}{Backtrack Ketika Mengalami Kemacetan}{subsection.2.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{Metode Formal}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.4}{Pengujian Kotak Hitam}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.5}{Logika Proposisi}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.6}{Satisfiability Problem\(SAT\)}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.7}{Waterfall Design}{chapter.2}% 22
+\BOOKMARK [0][-]{chapter.3}{Metodologi}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Analisa spesifikasi dan Kebutuhan sistem}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{Translasi spesifikasi sistem}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{Pembuatan aplikasi}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Spesifikasi Aplikasi}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{Analysis}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.3}{Design}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.4}{Coding}{section.3.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Pengujian aplikasi}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.5}{Analisis sistem}{chapter.3}% 32
+\BOOKMARK [0][-]{section.3.5}{Daftar Pustaka}{}% 33
+\BOOKMARK [0][-]{section.3.5}{Lampiran}{}% 34

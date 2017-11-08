@@ -2,9 +2,9 @@
 
 \section{Latar Belakang}
 
-Pada Tahun 2015 \textit{The Organization for Economic Co-operation and Development}(OECD) merilis nilai dari \textit{Program for International Student Assessment}(PISA). Yang merupakan nilai kemampuan siswa pada matematika, membaca, dan membaca. Pada kategori matematika Indosnesia menempati peringkat 57 dari 64 negara dengan nilai 386. Sedangkan nilai rata-rata OECD untuk matematika adalah 470. Hal ini sunggu memprihatinkan oleh karena itu 
+Pada Tahun 2015 \textit{The Organization for Economic Co-operation and Development}(OECD) merilis nilai dari \textit{Programme for International Student Assessment}(PISA). Yang merupakan nilai kemampuan siswa pada matematika, membaca, dan membaca. Pada kategori matematika Indosnesia menempati peringkat 65 dari 71 negara dengan nilai 386. Sedangkan nilai rata-rata OECD untuk matematika adalah 470. Hal ini sungguh memprihatinkan. Oleh karena itu diperlukan katalis yang dapat mengembangkan kemampuan \textit{logical thinking} serta \textit{problem solving} anak salah satunya adalah dengan sudoku. 
 
-Sudoku berasal dari kata \textit{Sūji wa dokushin ni kagiru} yang berarti angkanya harus tunggal\cite{SATPy3} adalah suatu \textit{puzzle} (teka-teki) yang direpresentasikan oleh sebuah matriks (\textit{array}
+Sudoku berasal dari kata \textit{Sūji wa dokushin ni kagiru} yang berarti angkanya harus tunggal \cite{SATPy3} adalah suatu \textit{puzzle} (teka-teki) yang direpresentasikan oleh sebuah matriks (\textit{array}
 dua dimensi) berukuran ${n^2 \times n^2}$  yang dibangun dari ${n^2}$ dengan submatriks (atau blok)
 yang berukuran ${n \times n}$. Sudoku merupakan \textit{puzzle}
 yang biasanya dimainkan oleh satu orang.  Pada
@@ -22,12 +22,12 @@ Banyak pemain yang terjebak pada teka-teki sudoku dan tidak dapat melanjutkan pe
 Hingga saat ini, sudah banyak penelitian yang membahas penyelesaian sudoku secara
 matematis maupun komputasional. Salah satu metode yang cukup dikenal adalah penyelesaian
 sudoku dengan memanfaatkan masalah keterpenuhan formula proposisional (\textit{propositional satisfiability problem}). Dengan pendekataan ini, syarat-syarat yang
-harus dipenuhi oleh suatu sudoku dimodelkan dengan satu atau lebih formula logika proposisi\cite{KJ06,LO06}.
+harus dipenuhi oleh suatu sudoku dimodelkan dengan satu atau lebih formula logika proposisi \cite{KJ06,LO06}.
 Keterpenuhan (\textit{satisfiability}) dari himpunan formula yang memodelkan syarat-syarat
 ini akan menjamin bahwa suatu sudoku memiliki suatu solusi.
 
 Pada tugas akhir ini, penulis akan membuat pemecah sudoku interaktif berbasis python. Bahasa python dipilih
-karena implementasi SAT solver dalam bahasa python masih masih sedikit dibandingkan pada bahasa C dan C++\cite{SATPy1}. Aplikasi akan menggunakan pengujian kotak hitam untuk menilai kualitas aplikasi\cite{TEST1}.
+karena implementasi SAT solver dalam bahasa python masih masih sedikit dibandingkan pada bahasa C dan C++ \cite{SATPy1}. Aplikasi akan menggunakan pengujian kotak hitam untuk menilai kualitas aplikasi \cite{TEST1}.
 
 \section{Perumusan Masalah}
 
@@ -39,6 +39,7 @@ adalah bagaimana cara membuat SAT solver bebasis python untuk pemecah sudoku yan
 Batasan pada tugas akhir ini terbatas pada:
 \begin{enumerate}
 	\item Penulis hanya membangun aplikasi sudoku solver berukuran ($4\times4$), ($9\times9$), ($16\times16$).
+	\item Untuk setiap ukuran sudoku memiliki tiga tingkat kesulitan. Yaitu mudah, menengah, sulit.
 	\item Program mengeluarkan keterpenuhan dari sudoku.
 	\item Program mengeluarkan solusi dari sudoku jika pengguna mengiginkan.
 	\item Aplikasi akan diuji dengan metode
