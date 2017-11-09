@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.30)  8 NOV 2017 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.30)  9 NOV 2017 12:02
 entering extended mode
 **./main.tex
 (main.tex
@@ -1129,7 +1129,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
 (Font)              size <17.28> substituted on input line 3.
 
-<Tel-U-Logo.png, id=145, 547.8066pt x 668.4975pt>
+<Tel-U-Logo.png, id=105, 547.8066pt x 668.4975pt>
 File: Tel-U-Logo.png Graphic file (type png)
  <use Tel-U-Logo.png>
 Package pdftex.def Info: Tel-U-Logo.png used on input line 21.
@@ -1176,20 +1176,20 @@ l.126 \include{Abstrak-Indo}
 
 
 
-] (main.tocpdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.ii}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.33 ... {3.4}Pengujian aplikasi}{14}{section.3.4}
-                                                   [2
-
-
-
-])
+] (main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3]
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 \cleardoublepage
+                       [2
+
+
+
+]
 \openout2 = `Pendahuluan.aux'.
 
  (Pendahuluan.tex
@@ -1238,132 +1238,26 @@ Bab II.
 
 
 
-] <gambar/magicSquare.png, id=255, 352.31625pt x 339.51843pt>
-File: gambar/magicSquare.png Graphic file (type png)
-
-<use gambar/magicSquare.png>
-Package pdftex.def Info: gambar/magicSquare.png used on input line 30.
-(pdftex.def)             Requested size: 246.61969pt x 237.66127pt.
- <gambar/solve1.png, id=258, 449.68pt x 377.41pt>
-File: gambar/solve1.png Graphic file (type png)
-
-<use gambar/solve1.png>
-Package pdftex.def Info: gambar/solve1.png used on input line 48.
-(pdftex.def)             Requested size: 314.77385pt x 264.1852pt.
-
-
-LaTeX Warning: Citation `Sud12' on page 5 undefined on input line 50.
-
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.53 
-      <./gambar/magicSquare.png>]
-<gambar/solve2.png, id=268, 450.68375pt x 377.41pt>
-File: gambar/solve2.png Graphic file (type png)
- <use gambar/solve2.png>
-Package pdftex.def Info: gambar/solve2.png used on input line 60.
-(pdftex.def)             Requested size: 315.47646pt x 264.1852pt.
-
-
-LaTeX Warning: Citation `Sud12' on page 6 undefined on input line 62.
-
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.65 
-      <./gambar/solve1.png>]
-<gambar/solve3.png, id=274, 448.67625pt x 376.40625pt>
-File: gambar/solve3.png Graphic file (type png)
- <use gambar/solve3.png>
-Package pdftex.def Info: gambar/solve3.png used on input line 70.
-(pdftex.def)             Requested size: 314.07123pt x 263.48257pt.
-
-
-LaTeX Warning: Citation `Sud12' on page 7 undefined on input line 72.
-
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.75 
-      <./gambar/solve2.png>] <gambar/solve4.png, id=280, 449.68pt x 377.41pt>
-File: gambar/solve4.png Graphic file (type png)
-
-<use gambar/solve4.png>
-Package pdftex.def Info: gambar/solve4.png used on input line 86.
-(pdftex.def)             Requested size: 314.77385pt x 264.1852pt.
-
-
-LaTeX Warning: Citation `Sud12' on page 8 undefined on input line 88.
-
-
-LaTeX Warning: Citation `Sud12' on page 8 undefined on input line 88.
-
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.91 
-      <./gambar/solve3.png>] [9pdfTeX warning (ext4): destination with the same
- identifier (name{figure.2.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.113 O
-       perator yang digunakan pada logika proposisi adalah sebagai berikut <./g
-ambar/solve4.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
-
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
-
-<gambar/rule1.png, id=297, 181.42781pt x 32.37094pt>
-File: gambar/rule1.png Graphic file (type png)
- <use gambar/rule1.png>
-Package pdftex.def Info: gambar/rule1.png used on input line 147.
-(pdftex.def)             Requested size: 181.42737pt x 32.37085pt.
-
-[10] <gambar/rule2.png, id=306, 186.6975pt x 37.64063pt>
-File: gambar/rule2.png Graphic file (type png)
-
-<use gambar/rule2.png>
-Package pdftex.def Info: gambar/rule2.png used on input line 151.
-(pdftex.def)             Requested size: 186.69704pt x 37.64052pt.
- <gambar/rule3.png, id=307, 340.27126pt x 32.37094pt>
-File: gambar/rule3.png Graphic file (type png)
-
-<use gambar/rule3.png>
-Package pdftex.def Info: gambar/rule3.png used on input line 156.
-(pdftex.def)             Requested size: 340.27042pt x 32.37085pt.
- <gambar/rule4.png, id=308, 326.72063pt x 35.38219pt>
-File: gambar/rule4.png Graphic file (type png)
-
-<use gambar/rule4.png>
-Package pdftex.def Info: gambar/rule4.png used on input line 160.
-(pdftex.def)             Requested size: 326.71982pt x 35.3821pt.
-) [11 <./gambar/rule1.png> <./gambar/rule2.png> <./gambar/rule3.png> <./gambar/
-rule4.png>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+ [5]) [6]
 \openout2 = `Metodologi.aux'.
 
- (Metodologi.tex
+
+(Metodologi.tex
 Bab III.
-<metodologi_proposal.png, id=323, 425.33907pt x 365.86688pt>
+<metodologi_proposal.png, id=223, 425.33907pt x 365.86688pt>
 File: metodologi_proposal.png Graphic file (type png)
 
 <use metodologi_proposal.png>
 Package pdftex.def Info: metodologi_proposal.png used on input line 7.
 (pdftex.def)             Requested size: 297.7353pt x 256.10506pt.
- [12
+ [7
 
 
 
@@ -1374,19 +1268,19 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.24 
       <./metodologi_proposal.png>]
-<gambar/useCase.png, id=330, 272.51813pt x 187.45032pt>
+<gambar/useCase.png, id=230, 272.51813pt x 187.45032pt>
 File: gambar/useCase.png Graphic file (type png)
 
 <use gambar/useCase.png>
 Package pdftex.def Info: gambar/useCase.png used on input line 36.
 (pdftex.def)             Requested size: 272.51746pt x 187.44984pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-2}) has been already used, duplicate ignored
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.61 
-      <./gambar/useCase.png>]) [14] (main.bbl
+      <./gambar/useCase.png>]) [9] (main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
 []\OT1/cmr/m/n/12 ``Cara me-me-cahk-an te-ka te-ki su-do-ku,''
  []
@@ -1420,14 +1314,14 @@ Overfull \hbox (99.0729pt too wide) in paragraph at lines 66--68
 rticle/0,9171,2137423,00.html. 
  []
 
-[15
+[10
 
 
 
-]) [16]
+]) [11]
 \openout2 = `Lampiran.aux'.
 
- (Lampiran.tex) [17
+ (Lampiran.tex) [12
 
 
 
@@ -1440,35 +1334,34 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 42542ED9ACDCF71A4DBD06EF978FC2A1;2266.
+(rerunfilecheck)             Checksum: 6B45D058493FC158BC8719CC16687E95;1530.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 19986 strings out of 493323
- 363188 string characters out of 3139069
- 464008 words of memory out of 3000000
- 22977 multiletter control sequences out of 15000+200000
+ 19903 strings out of 493323
+ 361772 string characters out of 3139069
+ 464001 words of memory out of 3000000
+ 22924 multiletter control sequences out of 15000+200000
  11474 words of font info for 42 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 55i,13n,56p,907b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,13n,56p,1003b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (22 pages, 1486043 bytes).
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
+12.pfb>
+Output written on main.pdf (16 pages, 501605 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
