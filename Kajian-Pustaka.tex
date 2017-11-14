@@ -33,7 +33,7 @@ Sudoku memiliki beberapa aturan contohnya untuk sudoku berukuran  $9 \times 9$ y
 	\item Setiap kolom memuat bilangan antara 1 hingga 9.
 	\item Setiap submatriks atau blok $3 \times 3$
 	 memuat bilangan antara 1 hingga 9.
-	\item Setiap sel memuat tepat satu bilangan antara 1 hingga 9.
+	\item Setiap sel paling banyak satu bilangan antara 1 hingga 9.
 \end{enumerate}
 
 Dari aturan-aturan tersebut akan ditranslasikan menjadi bentuk CNF lalu digunakan pada SAT \textit{solver}. Dengan aturan yang telah ditranslasikan dalam CNF sebagai berikut:
@@ -53,7 +53,7 @@ Dari aturan-aturan tersebut akan ditranslasikan menjadi bentuk CNF lalu digunaka
 	
 	$\bigwedge_{i=0}^{2}$$\bigwedge_{j=0}^{2}$$\bigwedge_{n=1}^{9}$$\bigvee_{r=3i+1}^{3i+3}$$\bigvee_{c=3j+1}^{3j+3}$$p\left(r,c,n\right)$
 	
-	\item Setiap sel memuat tepat satu bilangan antara 1 hingga 9 : 
+	\item Setiap sel memuat paling banyak satu bilangan antara 1 hingga 9 : 
 	
 	$\bigwedge_{r=1}^{9}$$\bigwedge_{c=1}^{9}$$\bigwedge_{n=1}^{8}$$\bigwedge_{i=n+1}^{9}$
 	$\left(\neg p\left(r,c,n\right)\vee\neg p\left(r,c,i\right)\right)$
@@ -72,6 +72,61 @@ Pada aturan 1 untuk menyatakan baris $r$ memuat bilangan antara 1 hingga 9, maka
 Pada aturan 2  untuk menyatakan kolom $c$ memuat bilangan antara 1 hingga 9, maka dapat ditulis dengan  $\bigvee_{r=1}^{9}$$p\left(r,c,n\right)$
 Untuk menyatakan bahwa kolom $c$ memuat semua bilangan pada $\left\{1,...,9\right\}$ maka dapat ditulis dengan $\bigwedge_{n=1}^{9}$$\bigvee_{r=1}^{9}$$p\left(r,c,n\right)$. Untuk menyatakan bahwa setiap kolom memuat semua bilangan pada $\left\{1,...,9\right\}$ dapat ditulis dengan $\bigwedge_{c=1}^{9}$$\bigwedge_{n=1}^{9}$$\bigvee_{r=1}^{9}$$p\left(r,c,n\right)$
  
-Pada aturan 3 karena sudoku dengan ukuran $9\times9$ memiliki sel dengan ukuran $3\times3$ maka terdapat 9 sel pada sudoku. 
+Pada aturan 3 karena sudoku dengan ukuran $9\times9$ memiliki sel dengan ukuran $3\times3$ maka terdapat 9 sel pada sudoku sehingga :
+\begin{itemize}
+	\item blok pertama akan dimulai dengan sel $\left(1,1\right)$ dan di akhiri
+	pada sel $\left(3,3\right)$
+	\item blok kedua akan dimulai dengan sel $\left(4,1\right)$dan di akhiri
+	pada sel $\left(6,3\right)$
+	\item blok ketiga akan dimulai dengan sel $\left(7,1\right)$dan di akhiri
+	pada sel $\left(9,3\right)$
+	\item blok keempat akan dimulai dengan sel $\left(1,4\right)$ dan di akhiri
+	pada sel $\left(3,6\right)$
+	\item blok kelima akan dimulai dengan sel $\left(4,4\right)$dan di akhiri
+	pada sel $\left(6,6\right)$
+	\item blok keenam akan dimulai dengan sel $\left(7,4\right)$dan di akhiri
+	pada sel $\left(9,6\right)$
+	\item blok ketujuh akan dimulai dengan sel $\left(1,7\right)$ dan di akhiri
+	pada sel $\left(3,9\right)$
+	\item blok kedelapan akan dimulai dengan sel $\left(4,7\right)$dan di akhiri
+	pada sel $\left(6,9\right)$
+	\item blok kesembilan akan dimulai dengan sel $\left(7,7\right)$dan di akhiri
+	pada sel $\left(9,9\right)$
+\end{itemize}
 
-Pada aturan 4
+Sehingga sebuah blok memuat semua sel $\left(r,c\right)$ dengan $3i+1\leq r\leq3i+3]$
+dan $3j+1\leq c\leq3j+3]$, dengan $0\leq i,j\leq2$.Oleh karena itu aturan 3 dapat ditulis dengan $\bigwedge_{i=0}^{2}$$\bigwedge_{j=0}^{2}$$\bigwedge_{n=1}^{9}$$\bigvee_{r=3i+1}^{3i+3}$$\bigvee_{c=3j+1}^{3j+3}$$p\left(r,c,n\right)$
+
+Pada aturan 4 agar setiap sel memuat angka 1 hingga 9 dapat ditulis dengan $\bigwedge_{r=1}^{9}$$\bigwedge_{c=1}^{9}$$\bigvee_{n=1}^{9}$$p\left(r,c,n\right)$. Lalu agar setiap selnya memiliki paling banyak satu nilai maka nilai pada sel tersebut akan dibandingkan dengan nilai lainnya pada sel yang sama dan jika terdapat dua atau lebih nilai pada sel yang sama maka akan mengeluarkan nilai \textit{false} hal tersebut  dapat ditulis dengan $\bigwedge_{r=1}^{9}$$\bigwedge_{c=1}^{9}$$\bigwedge_{n=1}^{8}$$\bigwedge_{i=n+1}^{9}$
+$\left(\neg p\left(r,c,n\right)\vee\neg p\left(r,c,i\right)\right)$.
+
+\section{SAT Solver}
+
+SAT \textit{solver} adalah sebuah aplikasi yang dibuat untuk menyelesaikan masalah SAT. Salah satu SAT \textit{solver} yang cepat adalah MiniSat. SAT \textit{solver} sendiri menerima masukan formula dalam bentuk CNF dan mengeluarkan dua buah keluaran yaitu `sat' ditambah sebuah model jika formula satisfiable, dan `unsat' jika formula unsatisfiable. Format masukan pada SAT \textit{solver} atau yang disebut DIMACS adalah sebagai berikut :
+
+\begin{enumerate}
+	\item Pertama baris komentar dapat ditulis dengan : \texttt{c <komentar>}
+	\item Pertama baris komentar dapat ditulis dengan : \texttt{c <komentar>}
+	\item Lalu banyak variabel dan klausa\texttt{p cnf <banyak-varian> <banyak-klausa>}
+	\item Lalu klausa: 
+	
+	\begin{itemize}
+		\item Setiap variabel di representasikan dengan sebuah integer $\geq1$.
+		\item Integer dengan nilai negatif mengartikan negasi literal.
+		\item Literal pada sebuah klausa dipisahkan oleh spasi.
+		\item Akhir dari klausa ditulis dengan 0
+	\end{itemize}
+\end{enumerate}
+Contoh input DIMACS:
+
+Formula : $\left(\left(\ensuremath{x_{1}}\ensuremath{\vee}\ensuremath{x_{2}}\right)\ensuremath{\wedge\neg}\ensuremath{x_{3}}\right)$
+
+Ditulis : 
+
+\texttt{c Contoh formula satisfiable}
+
+\texttt{p cnf 3 2} 
+
+\texttt{1 2 0}
+
+\texttt{-3 0}

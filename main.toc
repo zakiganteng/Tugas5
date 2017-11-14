@@ -12,15 +12,16 @@
 \contentsline {section}{\numberline {2.1}Sudoku}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}\textit {Satisfiability Problem}(SAT)}{5}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Sudoku Sebagai Masalah SAT}{5}{subsection.2.2.1}
-\contentsline {chapter}{\numberline {III}Metodologi}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Analisa spesifikasi dan Kebutuhan sistem}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Translasi spesifikasi sistem}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Pembuatan aplikasi}{8}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Spesifikasi Aplikasi}{8}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}\textit {Analysis}}{8}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}\textit {Design}}{8}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}\textit {Coding}}{9}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Pengujian aplikasi}{9}{section.3.4}
-\contentsline {section}{\numberline {3.5}Analisis sistem}{9}{section.3.5}
-\contentsline {chapter}{Daftar Pustaka}{10}{section.3.5}
-\contentsline {chapter}{Lampiran}{12}{chapter*.3}
+\contentsline {section}{\numberline {2.3}SAT Solver}{6}{section.2.3}
+\contentsline {chapter}{\numberline {III}Metodologi}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Analisa spesifikasi dan Kebutuhan sistem}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Translasi spesifikasi sistem}{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}Pembuatan aplikasi}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Spesifikasi Aplikasi}{9}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}\textit {Analysis}}{9}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}\textit {Design}}{9}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Implementasi}{10}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Pengujian aplikasi}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}Analisis sistem}{10}{section.3.5}
+\contentsline {chapter}{Daftar Pustaka}{11}{section.3.5}
+\contentsline {chapter}{Lampiran}{11}{section.3.5}
