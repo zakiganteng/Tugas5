@@ -33,7 +33,7 @@ Sudoku memiliki beberapa aturan contohnya untuk sudoku berukuran  $9 \times 9$ y
 	\item Setiap kolom memuat bilangan antara 1 hingga 9.
 	\item Setiap submatriks atau blok $3 \times 3$
 	 memuat bilangan antara 1 hingga 9.
-	\item Setiap sel paling banyak satu bilangan antara 1 hingga 9.
+	\item Setiap sel memuat paling banyak satu bilangan antara 1 hingga 9.
 \end{enumerate}
 
 Dari aturan-aturan tersebut akan ditranslasikan menjadi bentuk CNF lalu digunakan pada SAT \textit{solver}. Dengan aturan yang telah ditranslasikan dalam CNF sebagai berikut:
@@ -117,11 +117,12 @@ SAT \textit{solver} adalah sebuah aplikasi yang dibuat untuk menyelesaikan masal
 		\item Akhir dari klausa ditulis dengan 0
 	\end{itemize}
 \end{enumerate}
-Contoh input DIMACS:
+
+Contoh masukan DIMACS:
 
 Formula : $\left(\left(\ensuremath{x_{1}}\ensuremath{\vee}\ensuremath{x_{2}}\right)\ensuremath{\wedge\neg}\ensuremath{x_{3}}\right)$
 
-Ditulis : 
+Ditulis: 
 
 \texttt{c Contoh formula satisfiable}
 
@@ -130,3 +131,24 @@ Ditulis :
 \texttt{1 2 0}
 
 \texttt{-3 0}
+
+\vspace{5mm}
+
+
+Contoh keluaran SAT \textit{solver}:
+
+Formula: $\left(\left(\ensuremath{x_{1}}\ensuremath{\vee}\ensuremath{x_{2}}\right)\ensuremath{\wedge\neg}\ensuremath{x_{3}}\right)$
+
+\vspace{5mm}
+
+Keluaran:
+
+\texttt{SAT}
+
+\texttt{1 -2 -3 0}
+
+\vspace{5mm}
+
+Untuk penggunaan minisat dapat ditulis dengan:
+\texttt{./minisat namaFileMasukan namaFileKeluaran}
+

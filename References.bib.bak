@@ -58,6 +58,14 @@
   Timestamp                = {2017.11.07}
 }
 
+@Misc{Pisa1,
+  Title                    = {Cara Memecahkan Teka teki Sudoku},
+  HowPublished             = {https://id.wikihow.com/Memecahkan-Teka-teki-Sudoku},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.07}
+}
+
 @Misc{Pisa2,
   Title                    = {The latest ranking of top countries in math, reading, and science is out},
   HowPublished             = {http://www.businessinsider.sg/pisa-worldwide-ranking-of-math-science-reading-skills-2016-12/?r=US\&IR=T},
@@ -93,6 +101,14 @@
 @Misc{SATPy4,
   Title                    = {Supplément de l’article: Les ancêtres français du sudoku},
   HowPublished             = {https://web.archive.org/web/20061210103525/http://cboyer.club.fr/multimagie/SupplAncetresSudoku.pdf},
+
+  Owner                    = {zakaria},
+  Timestamp                = {2017.11.01}
+}
+
+@Misc{SATPy5,
+  Title                    = {Arti Kata Interaktif-KBBI},
+  HowPublished             = {https://kbbi.web.id/interaktif},
 
   Owner                    = {zakaria},
   Timestamp                = {2017.11.01}
