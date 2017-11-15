@@ -16,7 +16,134 @@ Menganalisa spesifikasi-spesifikasi pada teka-teki sudoku, lalu membuat kebutuha
 
 \section{Translasi spesifikasi sistem}
 
-Spesifikasi yang sudah di dapat diubah dalam bentuk logika proposisi lalu dijadikan dalam bentuk CNF.
+Aturan-aturan yang telah ditranslasikan dalam CNF di translasikan pada bahasa python dan dibuatkan aturan DIMACSnya seberti berikut:
+
+\begin{enumerate}
+	\item Setiap baris memuat bilangan antara 1 
+	hingga 9 : 
+	
+	$\bigwedge_{r=1}^{9}$$\bigwedge_{n=1}^{9}$$\bigvee_{c=1}^{9}$$p\left(r,c,n\right)$
+	
+	\vspace{5mm}
+	
+	Skrip python :
+	
+	\vspace{5mm}
+	
+	\texttt{def aturan1(dimacs):}
+	
+	\qquad\qquad\texttt{for r in range(1, 10):}
+	
+	\qquad\qquad\qquad\texttt{for n in range(1, 10):}
+	
+	\qquad\qquad\qquad\qquad\texttt{for c in range(1, 10):}
+	
+	\qquad\qquad\qquad\qquad\qquad\texttt{dimacs += str(r) + str(c) + str(n) + ' 0\textbackslash n'}
+	
+	\qquad\qquad\qquad\qquad\texttt{global klausa}
+	
+	\qquad\qquad\qquad\qquad\texttt{klausa += 1}
+	
+	\qquad\qquad\texttt{return dimacs}
+	
+	
+	\item Setiap kolom memuat bilangan antara 1 hingga 9 : 
+	
+	$\bigwedge_{c=1}^{9}$$\bigwedge_{n=1}^{9}$$\bigvee_{r=1}^{9}$$p\left(r,c,n\right)$
+	
+	
+	\vspace{5mm}
+	
+	Skrip python :
+	
+	\vspace{5mm}
+	
+	\texttt{def aturan1(dimacs):}
+	
+	\qquad \qquad\texttt{for c in range(1, 10):}
+	
+	\qquad \qquad \qquad\texttt{for n in range(1, 10):}
+	
+	\qquad \qquad \qquad \qquad\texttt{for r in range(1, 10):}
+	
+	\qquad\qquad\qquad\qquad\qquad\texttt{dimacs += str(r) + str(c) + str(n) + ' 0\textbackslash n'}
+	
+	\qquad \qquad \qquad \qquad\texttt{global klausa}
+	
+	\qquad \qquad \qquad \qquad\texttt{klausa += 1}
+	
+	\qquad \qquad\texttt{return dimacs}
+	
+	\item Setiap submatriks atau blok $3 \times 3$
+	memuat bilangan antara 1 hingga 9 : 
+	
+	$\bigwedge_{i=0}^{2}$$\bigwedge_{j=0}^{2}$$\bigwedge_{n=1}^{9}$$\bigvee_{r=3i+1}^{3i+3}$$\bigvee_{c=3j+1}^{3j+3}$$p\left(r,c,n\right)$
+	
+	
+	\vspace{5mm}
+	
+	Skrip python :
+	
+	\vspace{5mm}
+	
+	\texttt{def aturan1(dimacs):}
+	
+	\qquad \qquad\texttt{for i in range(0, 3):}
+	
+	\qquad \qquad \qquad\texttt{for j in range(0, 3):}
+	
+	\qquad \qquad \qquad \qquad\texttt{for n in range(1, 10):}
+	
+	\qquad\qquad\qquad\qquad\qquad\texttt{for r in range(3*i+1, 3*i+4):}
+	
+	\qquad\qquad\qquad\qquad\qquad\qquad\texttt{for c in range(3*j+1, 3*j+4):}
+	
+	\qquad\qquad\qquad\qquad\qquad\qquad\qquad\texttt{dimacs += str(r) + str(c) + str(n) + ' 0\textbackslash n'}
+	
+	\qquad\qquad\qquad\qquad\qquad\qquad\texttt{global klausa}
+	
+	\qquad\qquad\qquad\qquad\qquad\qquad\texttt{klausa += 1}
+	
+	\qquad\qquad\texttt{return dimacs}
+	
+	\vspace{5mm}
+	
+	Setiap sel memuat paling banyak satu bilangan antara 1 hingga 9 : 
+	
+	\vspace{5mm}
+	
+	
+	\item Setiap sel memuat paling banyak satu bilangan antara 1 hingga 9 : 
+	
+	$\bigwedge_{r=1}^{9}$$\bigwedge_{c=1}^{9}$$\bigwedge_{n=1}^{8}$$\bigwedge_{i=n+1}^{9}$
+	$\left(\neg p\left(r,c,n\right)\vee\neg p\left(r,c,i\right)\right)$
+	
+	
+	\vspace{5mm}
+	
+	Skrip python :
+	
+	\vspace{5mm}
+	
+	\texttt{def aturan1(dimacs):}
+	
+	\qquad \qquad\texttt{for e in range(0, 3):}
+	
+	\qquad \qquad \qquad\texttt{for c in range(0, 3):}
+	
+	\qquad \qquad \qquad \qquad\texttt{for n in range(1, 9):}
+	
+	\qquad\qquad\qquad\qquad\qquad\texttt{for i in range(n+1, 10):}
+	
+	\qquad\qquad\qquad\qquad\qquad\qquad\texttt{dimacs += '-' + str(r) + str(c) + str(n) + ' ' + '-' + str(r) + str(c) + str(i) + ' 0\textbackslash n'}
+	
+	\qquad\qquad\qquad\qquad\qquad\texttt{global klausa}
+	
+	\qquad\qquad\qquad\qquad\qquad\texttt{klausa += 1}
+	
+	\qquad \qquad\texttt{return dimacs}
+	
+\end{enumerate}
 
 \section{Pembuatan aplikasi}
 

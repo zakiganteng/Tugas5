@@ -16,12 +16,12 @@
 \contentsline {chapter}{\numberline {III}Metodologi}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Analisa spesifikasi dan Kebutuhan sistem}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}Translasi spesifikasi sistem}{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}Pembuatan aplikasi}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Spesifikasi Aplikasi}{9}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}\textit {Analysis}}{9}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}\textit {Design}}{9}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Implementasi}{10}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Pengujian aplikasi}{10}{section.3.4}
-\contentsline {section}{\numberline {3.5}Analisis sistem}{10}{section.3.5}
-\contentsline {chapter}{Daftar Pustaka}{11}{section.3.5}
-\contentsline {chapter}{Lampiran}{11}{section.3.5}
+\contentsline {section}{\numberline {3.3}Pembuatan aplikasi}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Spesifikasi Aplikasi}{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}\textit {Analysis}}{11}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}\textit {Design}}{11}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Implementasi}{11}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Pengujian aplikasi}{12}{section.3.4}
+\contentsline {section}{\numberline {3.5}Analisis sistem}{12}{section.3.5}
+\contentsline {chapter}{Daftar Pustaka}{13}{section.3.5}
+\contentsline {chapter}{Lampiran}{13}{section.3.5}
