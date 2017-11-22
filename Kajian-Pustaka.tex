@@ -21,7 +21,7 @@ isi sebuah sel. Berikut adalah contoh sudoku $4 \times 4$ serta solusinya:
 	\begin{centering}
 		\includegraphics[scale=0.7]{gambar/4x4.jpeg}
 		
-		\caption{Sudoku dengan \textit{given}.Gambar di ambil dari.}
+		\caption{Sudoku dengan \textit{given}.Gambar di ambil dari \cite{SAT423}.}
 	\end{centering}
 \end{figure}
 
@@ -31,7 +31,7 @@ Pada sel (4,3) terdapat angka 2 sehingga pada blok kiri bawah hanya sel (3,2) sa
 	\begin{centering}
 		\includegraphics[scale=0.7]{gambar/4x4solved.jpeg}
 		
-		\caption{Sudoku yang sudah terselesaikan. Gambar di ambil dari.}
+		\caption{Sudoku yang sudah terselesaikan. Gambar di ambil dari \cite{SAT423}.}
 	\end{centering}
 \end{figure}
 
@@ -54,7 +54,7 @@ Berikut adalah contoh formula yang bukan CNF:
 	
 \end{itemize}
 
-Setiap formula bisa di lakukan kesetaraan agar memiliki bentuk CNF. 
+Setiap formula bisa dilakukan kesetaraan agar memiliki bentuk CNF. 
 
 Berikut adalah bentuk CNF dari formula diatas:
 \begin{itemize}
@@ -122,7 +122,7 @@ Pada aturan 3 karena sudoku dengan ukuran $9\times9$ memiliki sel dengan ukuran 
 \begin{centering}
 	\includegraphics[scale=0.7]{gambar/9x9color.jpeg}
 	
-	\caption{Gambar sudoku di ambil dari.}
+	\caption{Gambar sudoku di ambil dari \cite{rosen1995discrete}.}
 \end{centering}
 \end{figure}
 
@@ -216,8 +216,8 @@ Untuk penggunaan minisat dapat ditulis dengan:
 		\While{$out[0] \ne 'unsat'$}
 		\Comment{Melihat baris pertama pada file out}
 		\State \hspace{0.5cm} $sol \leftarrow out[1] $ 
-		\State \hspace{0.5cm} \textbf{For }$n=0:len(out[1])$\textbf{ do} 
-		\Comment{Menambahkan solusi baru}
+		\Comment{Menambahkan solusi baru} 
+		\State \hspace{0.5cm} \textbf{For }$n=0:len(out[1])$\textbf{ do}
 		\State \hspace{0.5cm} \hspace{0.5cm} \text{$temp \leftarrow out[1][n] * -1$}
 		\Comment{Negasi dari  solusi}
 		\State \hspace{0.5cm} \hspace{0.5cm} in $append(temp)$
