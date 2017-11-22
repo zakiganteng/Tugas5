@@ -10,18 +10,16 @@
 \contentsline {section}{\numberline {1.6}Jadwal Kegiatan}{3}{section.1.6}
 \contentsline {chapter}{\numberline {II}Kajian Pustaka}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Sudoku}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}\textit {Satisfiability Problem}(SAT)}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Sudoku Sebagai Masalah SAT}{5}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}SAT Solver}{6}{section.2.3}
-\contentsline {chapter}{\numberline {III}Metodologi}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Analisa spesifikasi dan Kebutuhan sistem}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}Translasi spesifikasi sistem}{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}Pembuatan aplikasi}{10}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Spesifikasi Aplikasi}{11}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}\textit {Analysis}}{11}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}\textit {Design}}{11}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Implementasi}{11}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Pengujian aplikasi}{12}{section.3.4}
-\contentsline {section}{\numberline {3.5}Analisis sistem}{12}{section.3.5}
-\contentsline {chapter}{Daftar Pustaka}{13}{section.3.5}
-\contentsline {chapter}{Lampiran}{13}{section.3.5}
+\contentsline {section}{\numberline {2.2}\textit {Conjunctive Normal Form}(CNF)}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}\textit {Satisfiability Problem}(SAT)}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Sudoku Sebagai Masalah SAT}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}SAT \textit {Solver}}{9}{section.2.5}
+\contentsline {chapter}{\numberline {III}Metodologi}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Spesifikasi Aplikasi}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Pembuatan aplikasi}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Use Case}{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Aturan Sudoku Dalam Python}{12}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Pengujian aplikasi}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Analisis sistem}{14}{section.3.4}
+\contentsline {chapter}{Daftar Pustaka}{15}{section.3.4}
+\contentsline {chapter}{Lampiran}{15}{section.3.4}

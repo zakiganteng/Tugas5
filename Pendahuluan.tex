@@ -2,7 +2,7 @@
 
 \section{Latar Belakang}
 
-Pada Tahun 2015 \textit{The Organization for Economic Co-operation and Development}(OECD) merilis nilai dari \textit{Programme for International Student Assessment}(PISA) \cite{Pisa1}. Yang merupakan nilai kemampuan siswa pada matematika, sains, dan membaca. Pada kategori matematika Indosnesia menempati peringkat 65 dari 71 negara dengan nilai 386. Sedangkan nilai rata-rata OECD untuk matematika adalah 470 \cite{Pisa2}. Hal ini sungguh memprihatinkan. Oleh karena itu diperlukan katalis yang dapat mengembangkan kemampuan \textit{logical thinking} serta \textit{problem solving} anak, salah satunya adalah dengan sudoku. 
+Pada Tahun 2015 \textit{The Organization for Economic Co-operation and Development}(OECD) merilis nilai dari \textit{Programme for International Student Assessment}(PISA) \cite{Pisa1}. Nilai kemampuan siswa yang diukur adalah matematika, sains, dan membaca. Pada kategori matematika Indonesia menempati peringkat 65 dari 71 negara dengan nilai 386. Sedangkan nilai rata-rata OECD untuk matematika adalah 470 \cite{Pisa2}, hal ini sungguh memprihatinkan. Oleh karena itu diperlukan katalis yang dapat mengembangkan kemampuan \textit{logical thinking} serta \textit{problem solving} anak, salah satunya adalah dengan sudoku. 
 
 Sudoku berasal dari kata \textit{Sūji wa dokushin ni kagiru} yang berarti angkanya harus tunggal \cite{SATPy3} adalah suatu \textit{puzzle} (teka-teki) yang direpresentasikan oleh sebuah matriks (\textit{array}
 dua dimensi) berukuran ${n^2 \times n^2}$  yang dibangun dari ${n^2}$ dengan submatriks (atau blok)
@@ -17,7 +17,7 @@ ini juga mengakibatkan sudoku dapat diselesaikan hanya dengan mengandalkan penal
 yang sederhana. Pengisian suatu sel dapat dilakukan dengan meninjau kemungkinan dari
 isi sebuah sel.
 
-Banyak pemain yang terjebak pada teka-teki sudoku dan tidak dapat melanjutkan permainan. Hal ini terjadi karena pemain mengisi nilai yang salah atau sudoku tidak memiliki solusi. Oleh karena itu banyak pemain yang membutuhkan pemecah sudoku yang dapat memberikan keterpenuhan dari sebuah sudoku. Sehingga pemain dapat mengetahui sebuah sudoku memiliki solusi atau tidak.
+Banyak pemain yang terjebak pada teka-teki sudoku dan tidak dapat melanjutkan permainan. Hal ini terjadi karena pemain mengisi nilai yang salah atau sudoku tidak memiliki solusi. Oleh karena itu banyak pemain yang membutuhkan pemecah sudoku yang dapat memberikan solusi dari sebuah sudoku. Sehingga pemain dapat mengetahui ada tidaknya solusi.
 
 Hingga saat ini, sudah banyak penelitian yang membahas penyelesaian sudoku secara
 matematis maupun komputasional. Salah satu metode yang cukup dikenal adalah penyelesaian
@@ -26,24 +26,23 @@ harus dipenuhi oleh suatu sudoku dimodelkan dengan satu atau lebih formula logik
 Keterpenuhan (\textit{satisfiability}) dari himpunan formula yang memodelkan syarat-syarat
 ini akan menjamin bahwa suatu sudoku memiliki suatu solusi.
 
-Pada tugas akhir ini, penulis akan membuat pemecah sudoku interaktif berbasis python. Bahasa python dipilih
-karena implementasi SAT solver dalam bahasa python masih masih sedikit dibandingkan pada bahasa C dan C++ \cite{SATPy1}. Aplikasi akan menggunakan pengujian kotak hitam untuk menilai kualitas aplikasi \cite{TEST1}. Interaktif adalah sebuah hubungan dua arah \cite{inte}. Yang penulis maksud dengan hubungan dua arah adalah sebuah hubungan dimana pengguna dapat berinteraksi dengan aplikasi dengan mudah, berkesan dan memberikan kepuasan serta pengalaman yang menyenangkan.
+Pada tugas akhir ini, penulis akan membuat pemecah sudoku interaktif berbasis Python. Bahasa Python dipilih
+karena implementasi SAT solver dalam bahasa Python masih masih sedikit dibandingkan pada bahasa C dan C++ \cite{SATPy1}. Kata interaktif adalah sebuah hubungan dua arah \cite{inte}  sehingga penulis akan membuat aplikasi yang  dengan dua arah sehingga pengguna dapat mendapatkan solusi sudoku menggunakan aplikasi dengan mudah.  Aplikasi akan diuji menggunakan pengujian kotak hitam untuk mengetahui ada tidaknya solusi dari aplikasi \cite{TEST1}.
 
 \section{Perumusan Masalah}
 
 Berdasarkan latar belakang tersebut, rumusan masalah pada tugas akhir ini
-adalah bagaimana cara membuat SAT solver bebasis python untuk pemecah sudoku yang interaktif.
+adalah bagaimana cara membuat SAT solver bebasis Python untuk pemecah sudoku yang interaktif.
 
 \section{Batasan Masalah}
 
 Batasan pada tugas akhir ini terbatas pada:
 \begin{enumerate}
-	\item Penulis hanya membangun aplikasi sudoku solver berukuran ($4\times4$), ($9\times9$), dan ($16\times16$). Ukuran tersebut diambil karena sesuai dengan tingkat kesulitan yang penulis akan buat yaitu mudah, menengah, sulit.
-	\item Untuk setiap ukuran sudoku memiliki tiga tingkat kesulitan. Yaitu mudah, menengah, sulit.
-	\item Program mengeluarkan keterpenuhan dari sudoku.
-	\item Program mengeluarkan solusi dari sudoku jika pengguna mengiginkan.
+	\item Penulis hanya membangun aplikasi sudoku solver berukuran ($4\times4$), ($9\times9$), ($16\times16$). Ukuran tersebut diambil karena sesuai dengan tingkat kesulitan yang penulis akan buat yaitu mudah, menengah, sulit.
+	\item Untuk setiap ukuran sudoku memiliki tiga tingkat kesulitan yaitu mudah, menengah, dan sulit. Tingkat kesulitan tersebut di ambil dari database sudoku  yang penulis ambil. 
+	\item Program mengeluarkan kemungkinan solusi dari sudoku.
 	\item Aplikasi akan diuji dengan metode
-	pengujian kotak hitam (\textit{black box testing}).
+	pengujian kotak hitam (\textit{black box testing}). Pengujian akan menggunakan \textit{test plan} yang penulis buat.
 \end{enumerate}
 
 \section{Tujuan}
@@ -54,8 +53,8 @@ Tujuan yang ingin dicapai pada tugas akhir ini adalah untuk membuat pemecah sudo
 
 Pada pengerjaan tugas akhir ini beberapa hal yang akan saya lakukan adalah sebagai berikut:
 \begin{enumerate}
-	\item Analisa spesifikasi dan Kebutuhan sistem.
-	\item Translasi spesifikasi sistem.
+	\item Studi literatur.
+	\item Spesifikasi aplikasi
 	\item Pembuatan aplikasi.
 	\item Pengujian aplikasi.
 	\item Analisis sistem.
@@ -82,10 +81,10 @@ Jadwal pengerjaan tugas akhir sesuai dengan alur yang telah dibuat.
 				\tabularnewline
 				
 				\hline 
-				1 & Analisa spesifikasi dan kebutuhan sistem & \cellcolor{cyan} & \cellcolor{cyan} &  &  &  &  & \tabularnewline
+				1 & Studi literatur & \cellcolor{cyan} & \cellcolor{cyan} &  &  &  &  & \tabularnewline
 				
 				\hline 
-				2 & Translasi spesifikasi sistem &  & \cellcolor{red} &  &  &  &  & \tabularnewline
+				2 & Spesifikasi aplikasi &  & \cellcolor{red} &  &  &  &  & \tabularnewline
 				
 				\hline 
 				3 & Pembuatan aplikasi &&  

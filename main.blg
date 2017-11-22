@@ -14,9 +14,9 @@ I couldn't open style file IEEEtran.bst
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Lampiran.aux
 I found no style file---while reading file main.aux
-You've used 12 entries,
+You've used 11 entries,
             0 wiz_defined-function locations,
-            114 strings with 725 characters,
+            112 strings with 713 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
