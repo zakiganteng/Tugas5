@@ -15,10 +15,11 @@
 \contentsline {section}{\numberline {2.4}Sudoku Sebagai Masalah SAT}{7}{section.2.4}
 \contentsline {section}{\numberline {2.5}SAT \textit {Solver}}{9}{section.2.5}
 \contentsline {chapter}{\numberline {III}Metodologi}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Alur Aplikasi}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Pembuatan aplikasi}{12}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Use Case}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Aturan Sudoku Dalam Python}{13}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.1}Alur Pemecah Sudoku}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Pembuatan aplikasi}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Alur Aplikasi}{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Use Case}{13}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Aturan Sudoku Dalam Python}{13}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}Pengujian aplikasi}{15}{section.3.3}
 \contentsline {section}{\numberline {3.4}Analisis aplikasi}{15}{section.3.4}
 \contentsline {chapter}{Daftar Pustaka}{16}{section.3.4}

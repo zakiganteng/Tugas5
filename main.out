@@ -14,11 +14,12 @@
 \BOOKMARK [1][-]{section.2.4}{Sudoku Sebagai Masalah SAT}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.5}{SAT Solver}{chapter.2}% 15
 \BOOKMARK [0][-]{chapter.3}{Metodologi}{}% 16
-\BOOKMARK [1][-]{section.3.1}{Alur Aplikasi}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.1}{Alur Pemecah Sudoku}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.2}{Pembuatan aplikasi}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.2.1}{Use Case}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.2}{Aturan Sudoku Dalam Python}{section.3.2}% 20
-\BOOKMARK [1][-]{section.3.3}{Pengujian aplikasi}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.4}{Analisis aplikasi}{chapter.3}% 22
-\BOOKMARK [0][-]{section.3.4}{Daftar Pustaka}{}% 23
-\BOOKMARK [0][-]{chapter*.3}{Lampiran}{}% 24
+\BOOKMARK [2][-]{subsection.3.2.1}{Alur Aplikasi}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{Use Case}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.3}{Aturan Sudoku Dalam Python}{section.3.2}% 21
+\BOOKMARK [1][-]{section.3.3}{Pengujian aplikasi}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.4}{Analisis aplikasi}{chapter.3}% 23
+\BOOKMARK [0][-]{section.3.4}{Daftar Pustaka}{}% 24
+\BOOKMARK [0][-]{chapter*.3}{Lampiran}{}% 25

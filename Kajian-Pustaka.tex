@@ -15,7 +15,7 @@ $n^2$ sedemikan sehingga setiap baris, setiap kolom,
 dan setiap blok (submatriks berukuran $n \times n$) memuat tepat satu bilangan di antara 1 sampai $n^2$. Biasanya suatu sudoku didesain agar tepat memiliki satu kemungkinan solusi. Hal
 ini juga mengakibatkan sudoku dapat diselesaikan hanya dengan mengandalkan penalaran
 yang sederhana. Pengisian suatu sel dapat dilakukan dengan meninjau kemungkinan dari
-isi sebuah sel. Berikut adalah contoh sudoku $4 \times 4$ serta solusinya:
+isi sebuah sel. Berikut adalah contoh sudoku $4 \times 4$ dengan tingkat kesulitan mudah serta solusinya:
 
 \begin{figure}[H]
 	\begin{centering}
@@ -63,7 +63,7 @@ Berikut adalah bentuk CNF dari formula diatas:
 \end{itemize}
 \section{\textit{Satisfiability Problem}(SAT)}
 
-Masalah SAT (SAT \textit{problem}) adalah salah satu masalah penting dalam logika komputasional \cite{huth2004logic}. Dalam pengerjaannya SAT berfokus pada membuktikan sebuah klausa \textit{satisfiable} sehingga SAT berfokus pada menemukan sebuah model yang membuat klausa tersebut \textit{satisfiable}. Jika tidak ditemukan sebuah model yang membuat klausa tersebut \textit{satisfiable} maka klausa tersebut \textit{unsatisfiable}, Untuk mengerjakan masalah tersebut dapat diselesaikan menggunakan tabel kebenaran namun hal tersebut kurang efektif, seperti contoh berikut. Tentukan formula berikut $\left(p\vee\neg q\right)$$\wedge$$\left(q\vee\neg r\right)$$\wedge$$\left(r\vee\neg p\right)$ \textit{satisfiable}, pada formula tersebut dibandingkan menggunkan tabel kebenaran kita bisa menggunakan \textit{reasoning}. Dapat kita lihat formula $\left(p\vee\neg q\right)$$\wedge$$\left(q\vee\neg r\right)$$\wedge$$\left(r\vee\neg p\right)$ akan bernilai benar jika ketiga variabel (p, q, dan r) memiliki nilai kebenaran yang sama, sehingga formula tersebut \textit{satisfiable}. Masalah SAT memiliki bentuk CNF serta merupakan masalah NP-complete, hingga saat ini tidak
+Masalah SAT (SAT \textit{problem}) adalah salah satu masalah penting dalam logika komputasional \cite{huth2004logic}. Dalam pengerjaannya SAT berfokus pada membuktikan sebuah klausa \textit{satisfiable} sehingga SAT berfokus pada menemukan sebuah model yang membuat klausa tersebut \textit{satisfiable}. \textit{Satisfiable} yang dimaksud adalah adanya model yang membuat nilai kebenaran dari suatu formula adalah \textit{true}. Jika tidak ditemukan sebuah model yang membuat klausa tersebut \textit{satisfiable} maka klausa tersebut \textit{unsatisfiable}, untuk mengerjakan masalah tersebut dapat diselesaikan menggunakan tabel kebenaran namun hal tersebut kurang efektif, seperti contoh berikut. Tentukan formula berikut $\left(p\vee\neg q\right)$$\wedge$$\left(q\vee\neg r\right)$$\wedge$$\left(r\vee\neg p\right)$ \textit{satisfiable}, pada formula tersebut dibandingkan menggunkan tabel kebenaran kita bisa menggunakan \textit{reasoning}. Dapat kita lihat formula $\left(p\vee\neg q\right)$$\wedge$$\left(q\vee\neg r\right)$$\wedge$$\left(r\vee\neg p\right)$ akan bernilai benar jika ketiga variabel (p, q, dan r) memiliki nilai kebenaran yang sama, sehingga formula tersebut \textit{satisfiable}. Masalah SAT memiliki bentuk CNF serta merupakan masalah NP-complete, hingga saat ini tidak
 terdapat algoritma yang efisien untuk memecahkan masalah tersebut. 
 
 
@@ -208,7 +208,8 @@ Untuk penggunaan minisat dapat ditulis dengan:
 \texttt{./minisat namaFileMasukan namaFileKeluaran}. Kekurangan pada SAT \textit{solver} adalah solusi \textit{satisfiable} yang dikeluarkan hanyalah satu. Kekurangan ini dapat diatasi dengan memasukkan solusi sebelumnya kedalam salah satu klausa pada masukan DIMACS dalam bentuk negasinya. Proses tersebut akan diulangi sampai keluaran dari SAT \textit{solver} adalah \textit{unsatisfiable}.
 
 \begin{algorithm}
-	\begin{algorithmic}[1]
+	\caption{Prosedur menemukan semua solusi.}
+	\begin{algorithmic}
 		\Procedure{Solution}{$in,out,sol$}
 		\State \text{Start}
 		\State \text{RunSAT(in,out)} 
@@ -230,6 +231,6 @@ Untuk penggunaan minisat dapat ditulis dengan:
 		\Comment{Mengeluarkan solusi}
 		\EndProcedure
 	\end{algorithmic}
-	\caption{Prosedur menemukan semua solusi.}\label{Algo:Solution}
+	
 \end{algorithm}
 
